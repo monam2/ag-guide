@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Post Detail Page - DevLog</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "background-light": "#ffffff",
+                        "background-subtle": "#f8f9fa",
+                        "text-main": "#1e293b",
+                        "code-bg-light": "#f6f8fa", 
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"],
+                        "mono": ["Fira Code", "monospace"],
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>.custom-scrollbar::-webkit-scrollbar {
+            height: 8px;
+            width: 8px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+    </style>
+</head>
+<body class="bg-background-light text-text-main font-display antialiased min-h-screen flex flex-col">
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 bg-white/80 backdrop-blur-md">
+<div class="max-w-[1200px] mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
+<div class="flex items-center gap-8">
+<a class="flex items-center gap-2 group" href="#">
+<div class="size-8 text-primary">
+<svg class="w-full h-full" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z" fill="currentColor"></path>
+</svg>
+</div>
+<span class="text-xl font-bold tracking-tight text-slate-900 group-hover:text-primary transition-colors">DevLog</span>
+</a>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-sm font-medium text-slate-600 hover:text-primary transition-colors" href="#">Articles</a>
+<a class="text-sm font-medium text-slate-600 hover:text-primary transition-colors" href="#">Tags</a>
+<a class="text-sm font-medium text-slate-600 hover:text-primary transition-colors" href="#">Authors</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="hidden sm:flex items-center relative">
+<span class="absolute left-3 text-slate-400 material-symbols-outlined text-[20px]">search</span>
+<input class="bg-slate-100 border border-slate-200 rounded-lg py-2 pl-10 pr-4 text-sm text-slate-900 focus:ring-2 focus:ring-primary focus:border-transparent w-48 lg:w-64 placeholder-slate-500 transition-all hover:bg-white" placeholder="Search..." type="text"/>
+</div>
+<button class="p-2 text-slate-500 hover:text-slate-900 hover:bg-slate-100 rounded-full transition-colors" title="Toggle Theme">
+<span class="material-symbols-outlined text-[20px]">light_mode</span>
+</button>
+<button class="bg-primary hover:bg-blue-600 text-white text-sm font-bold py-2 px-4 rounded-lg transition-colors shadow-sm shadow-blue-200">
+                    Sign In
+                </button>
+</div>
+</div>
+</header>
+<main class="flex-grow w-full max-w-[1200px] mx-auto px-4 md:px-8 py-10 relative">
+<div aria-hidden="true" class="fixed top-16 left-0 h-1 bg-primary w-[35%] z-40"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 relative">
+<aside class="hidden lg:flex lg:col-span-1 flex-col items-center gap-6 sticky top-32 h-fit">
+<button class="group flex flex-col items-center gap-1">
+<div class="w-12 h-12 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 group-hover:text-red-500 group-hover:bg-red-50 group-hover:border-red-100 transition-all shadow-sm">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 0;">favorite</span>
+</div>
+<span class="text-xs font-medium text-slate-500">142</span>
+</button>
+<button class="group flex flex-col items-center gap-1">
+<div class="w-12 h-12 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 group-hover:text-primary group-hover:bg-blue-50 group-hover:border-blue-100 transition-all shadow-sm">
+<span class="material-symbols-outlined text-[24px]">mode_comment</span>
+</div>
+<span class="text-xs font-medium text-slate-500">24</span>
+</button>
+<button class="group flex flex-col items-center gap-1">
+<div class="w-12 h-12 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 group-hover:text-primary group-hover:bg-blue-50 group-hover:border-blue-100 transition-all shadow-sm">
+<span class="material-symbols-outlined text-[24px]">bookmark</span>
+</div>
+</button>
+<div class="w-px h-16 bg-slate-200 my-2"></div>
+<button class="group">
+<div class="w-10 h-10 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 hover:text-slate-900 hover:border-slate-300 transition-all shadow-sm">
+<span class="material-symbols-outlined text-[20px]">share</span>
+</div>
+</button>
+</aside>
+<article class="col-span-1 lg:col-span-8 lg:col-start-3 max-w-3xl w-full mx-auto">
+<div class="mb-10">
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-blue-50 text-primary border border-blue-100 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">React</span>
+<span class="bg-slate-100 text-slate-600 border border-slate-200 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Performance</span>
+</div>
+<h1 class="text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 leading-tight mb-6">
+                        Optimizing React Rendering Performance: A Deep Dive
+                    </h1>
+<div class="flex items-center justify-between border-b border-slate-200 pb-8">
+<div class="flex items-center gap-4">
+<div class="relative">
+<img alt="Alex Johnson profile picture" class="w-12 h-12 rounded-full object-cover ring-2 ring-slate-100 shadow-sm" data-alt="Close up portrait of a man looking at the camera" src="https://lh3.googleusercontent.com/aida-public/AB6AXuApostqW5rdEa6PVLzl_WHFbLHak1J4cyIKLHhm6YdBOvDuJ0Ao6ty3ZpMDHdRB84dEnoYtjt58FFW5OA1p5xyCumT-bXEAXthkcwwCh8ByE3OR7sjOkNtSodDt3u9-Ute0Kw38CcfSiH2YJQhoEOkPIPocxTwcnsQQ8Jv5Pdmji7H8NyvPvTU6y23XM_XGlFK9xyQVVC6gvd6oxEELDnpxVQwnJ-HLoe-nwnfx5P7k4b9RVNKVy3W7UQUDS-0QnlCxfgSkYqz_HSc"/>
+<div class="absolute bottom-0 right-0 w-3 h-3 bg-green-500 border-2 border-white rounded-full"></div>
+</div>
+<div>
+<p class="text-base font-bold text-slate-900">Alex Johnson</p>
+<div class="flex items-center gap-2 text-sm text-slate-500">
+<span>Oct 24, 2023</span>
+<span>•</span>
+<span>5 min read</span>
+</div>
+</div>
+</div>
+<div class="flex gap-2">
+<button class="lg:hidden p-2 text-slate-500">
+<span class="material-symbols-outlined">favorite</span>
+</button>
+<button class="lg:hidden p-2 text-slate-500">
+<span class="material-symbols-outlined">bookmark</span>
+</button>
+</div>
+</div>
+</div>
+<div class="prose prose-lg prose-slate max-w-none text-slate-700 leading-relaxed">
+<p class="mb-6 text-xl text-slate-600 font-light leading-relaxed">
+                        React's rendering behavior is fundamental to understanding how to build performant applications. In this post, we will explore common pitfalls with re-renders, how `useMemo` actually works under the hood, and when you should avoid premature optimization.
+                    </p>
+<h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">The Problem with Re-renders</h2>
+<p class="mb-4">
+                        Every time a state change occurs in a parent component, React recursively re-renders all children by default. While React is fast, doing unnecessary work can lead to dropped frames in complex UIs.
+                    </p>
+<p class="mb-6">
+                        Consider the following scenario where a simple counter update causes an expensive list to re-calculate:
+                    </p>
+<div class="relative group my-8 rounded-lg overflow-hidden bg-code-bg-light shadow-sm border border-slate-200">
+<div class="flex items-center justify-between px-4 py-2 bg-slate-50 border-b border-slate-200">
+<span class="text-xs text-slate-500 font-mono font-medium">SlowComponent.jsx</span>
+<button class="text-slate-400 hover:text-slate-700 transition-colors">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+</button>
+</div>
+<div class="p-5 overflow-x-auto custom-scrollbar">
+<pre><code class="text-sm font-mono leading-relaxed text-slate-800"><span class="text-purple-600">import</span> React, { useState } <span class="text-purple-600">from</span> <span class="text-green-600">'react'</span>;
+<span class="text-purple-600">function</span> <span class="text-blue-600">Dashboard</span>() {
+  <span class="text-purple-600">const</span> [count, setCount] = <span class="text-blue-600">useState</span>(<span class="text-orange-600">0</span>);
+  <span class="text-slate-400 italic">// This runs on every render!</span>
+  <span class="text-purple-600">const</span> expensiveData = <span class="text-blue-600">calculateExpensiveData</span>();
+  <span class="text-purple-600">return</span> (
+    &lt;<span class="text-red-700">div</span>&gt;
+      &lt;<span class="text-red-700">h1</span>&gt;Count: {count}&lt;/<span class="text-red-700">h1</span>&gt;
+      &lt;<span class="text-red-700">button</span> <span class="text-amber-600">onClick</span>={() =&gt; <span class="text-blue-600">setCount</span>(c =&gt; c + <span class="text-orange-600">1</span>)}&gt;
+        Increment
+      &lt;/<span class="text-red-700">button</span>&gt;
+      &lt;<span class="text-red-700">ExpensiveList</span> <span class="text-amber-600">data</span>={expensiveData} /&gt;
+    &lt;/<span class="text-red-700">div</span>&gt;
+  );
+}</code></pre>
+</div>
+</div>
+<p class="mb-6">
+                        To fix this, we need to ensure referential stability for props passed to child components. This is where <code class="bg-slate-100 px-1.5 py-0.5 rounded text-sm text-pink-600 font-mono border border-slate-200">useMemo</code> comes in handy.
+                    </p>
+<div class="my-8">
+<img alt="Code on a computer screen showing react components" class="w-full rounded-xl shadow-lg border border-slate-200" data-alt="Close up of computer monitor with code displayed in dark theme" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaiAsfFrpIIMYMDuMIdNvqE9jrb49gnuY-iRtfIHkA6Ub2Q_59Xiu3C1XZjjVlYFs_3mfVkEIaGnaElDhh5qGyTAsHE83nuVeTE1F9uE-fizoWb9Fo7tSGYYnOQ8O51M1SqpidJDA6XI2rcZvFoXkeaZUKinfdo9N3PnQGzro2LdJRUSIKjLng3k9wHpdd2o6DFaEW_C76IcTqmJE-mqaCN7nKYRRgu5j_kyZV5MFNv-IkIGaIaNdBDY4xWhxWzV10GTniHWCDTu4"/>
+<p class="text-center text-sm text-slate-500 mt-3 italic">Visualizing the component tree updates</p>
+</div>
+<h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">When to optimize?</h2>
+<ul class="list-disc pl-6 mb-6 space-y-2 marker:text-primary">
+<li>When interactions feel sluggish (input lag).</li>
+<li>When rendering large lists or tables.</li>
+<li>When profiling shows specific components re-rendering too often.</li>
+</ul>
+<blockquote class="border-l-4 border-primary pl-6 my-8 italic text-xl text-slate-700 bg-blue-50/50 py-4 pr-4 rounded-r-lg">
+                        "Premature optimization is the root of all evil." — Donald Knuth
+                    </blockquote>
+<p class="mb-6">
+                        Start by building your feature correctly. Use the React DevTools Profiler to identify bottlenecks before sprinkling `memo` everywhere.
+                    </p>
+</div>
+<div class="mt-12 pt-8 border-t border-slate-200">
+<div class="flex flex-wrap gap-2">
+<a class="text-sm text-slate-500 hover:text-primary transition-colors font-medium bg-slate-50 px-3 py-1.5 rounded-md hover:bg-blue-50" href="#">#javascript</a>
+<a class="text-sm text-slate-500 hover:text-primary transition-colors font-medium bg-slate-50 px-3 py-1.5 rounded-md hover:bg-blue-50" href="#">#webdev</a>
+<a class="text-sm text-slate-500 hover:text-primary transition-colors font-medium bg-slate-50 px-3 py-1.5 rounded-md hover:bg-blue-50" href="#">#frontend</a>
+</div>
+</div>
+<section class="mt-16" id="comments">
+<h3 class="text-2xl font-bold text-slate-900 mb-8 flex items-center gap-2">
+                        Discussion <span class="text-base font-normal text-slate-500">(24)</span>
+</h3>
+<div class="flex gap-4 mb-10 p-6 bg-white border border-slate-200 rounded-xl shadow-sm">
+<div class="shrink-0">
+<div class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-white font-bold shadow-md">
+                                Y
+                            </div>
+</div>
+<div class="flex-grow">
+<textarea class="w-full bg-slate-50 border border-slate-200 rounded-lg p-4 text-slate-900 focus:ring-2 focus:ring-primary focus:border-transparent min-h-[100px] resize-y placeholder-slate-400 transition-all hover:bg-white" placeholder="What are your thoughts?"></textarea>
+<div class="flex justify-end mt-3">
+<button class="bg-primary hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg transition-colors shadow-sm">
+                                    Post Comment
+                                </button>
+</div>
+</div>
+</div>
+<div class="space-y-8">
+<div class="flex gap-4">
+<img alt="User avatar" class="w-10 h-10 rounded-full object-cover shadow-sm border border-slate-100" data-alt="Portrait of a smiling woman with red hair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQVZrBk67IGEo7S8XiDZi9e02VxsCYlocec_LXjXQLgwh-cyDf6SzPlPvI0MM9Mxfbj1CsmPxoeGC4nyPSA5F6w8tJL0gSzBX_818nRXz5H7o9HQDdIqpaaEMTuj2ppFNBGDytzUOaRAuFr2vvF6AjiD7Rm9zV6ogoTZnDBvfBoCK5jU5osoKa0Y6xWKlKWM-JJN9eZALO6YlDZezDgTRfK0WE403Jyk5DI3RZE1JvLUBz__JxlDCuhdJsRambzWtjpM88DzC6LP0"/>
+<div class="flex-grow">
+<div class="bg-white p-5 rounded-xl rounded-tl-none border border-slate-200 shadow-sm">
+<div class="flex items-center justify-between mb-2">
+<h4 class="font-bold text-slate-900 text-sm">Sarah Jenkins</h4>
+<span class="text-xs text-slate-400 font-medium">2 hours ago</span>
+</div>
+<p class="text-slate-700 text-sm leading-relaxed">
+                                        Great article! I've been struggling with `useCallback` vs `useMemo` for a while. The counter example really cleared things up for me.
+                                    </p>
+</div>
+<div class="flex items-center gap-4 mt-2 ml-1">
+<button class="flex items-center gap-1 text-xs font-medium text-slate-500 hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[16px]">thumb_up</span>
+                                        5
+                                    </button>
+<button class="text-xs font-medium text-slate-500 hover:text-primary transition-colors">Reply</button>
+</div>
+</div>
+</div>
+<div class="flex gap-4">
+<img alt="User avatar" class="w-10 h-10 rounded-full object-cover shadow-sm border border-slate-100" data-alt="Portrait of a man with glasses smiling" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLWZWbB8Ic6SHLM-MtyI-cgFxfdBNh4Yphso-Ea0ycSj4UaSRj0bRxfidWQgTd7CXnFjFKhCvzs1t9G907MpbryqFDbEp1RPJ4K6klVYfJ0bsOzn8mlRnIQoe1ehtKuDVjC7hia1wHdFSPez5hYkGvg3WqIc2voS-S-HdJe-t_umoQVy2wlikI1LSIdWeQ6QWZ6nuDNxMLQCuk-dRwGL-fpmzyfCFLBWrf7kp6tIqdOYphPyhEOHgYDjTGAydhNgpdp8Tr2qDftIA"/>
+<div class="flex-grow">
+<div class="bg-white p-5 rounded-xl rounded-tl-none border border-slate-200 shadow-sm">
+<div class="flex items-center justify-between mb-2">
+<h4 class="font-bold text-slate-900 text-sm">DevMike</h4>
+<span class="text-xs text-slate-400 font-medium">5 hours ago</span>
+</div>
+<p class="text-slate-700 text-sm leading-relaxed">
+                                        Is there a significant performance cost to wrapping everything in `memo` by default? I heard it adds some overhead for the props comparison.
+                                    </p>
+</div>
+<div class="flex items-center gap-4 mt-2 ml-1">
+<button class="flex items-center gap-1 text-xs font-medium text-slate-500 hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[16px]">thumb_up</span>
+                                        12
+                                    </button>
+<button class="text-xs font-medium text-slate-500 hover:text-primary transition-colors">Reply</button>
+</div>
+<div class="flex gap-4 mt-4">
+<div class="relative">
+<img alt="Alex Johnson profile picture" class="w-8 h-8 rounded-full object-cover ring-2 ring-blue-50" data-alt="Close up portrait of a man looking at the camera" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUGZw6RspAE8RYFH4aDGtBjZ_VuwGNSAKklyLya2wTe4aMCeHslJFt3i9PIWPNBBncH7i4jtxYdLbGNavt6O1h_6AQxiUYa2pTJ0rcIfyKn20s69rUJGsc9gRZHPBRdhD8C0WZ_kt0BJhvodrba4w_x3Qu63P3KlPeL81GxrBRHYroxgVa62csnsGy8QJyqgqYRiKkaoG9CshFS4J3Fl3sYfkZzmutRYk8OG-7-PJvR4vpAEiH3RJzIZQYFn6J0MqG81rrv6ioH_M"/>
+</div>
+<div class="flex-grow">
+<div class="bg-blue-50/50 p-4 rounded-xl rounded-tl-none border border-blue-100">
+<div class="flex items-center justify-between mb-1">
+<div class="flex items-center gap-2">
+<h4 class="font-bold text-slate-900 text-xs">Alex Johnson</h4>
+<span class="bg-blue-100 text-primary text-[10px] px-1.5 py-0.5 rounded font-bold uppercase tracking-wide">Author</span>
+</div>
+<span class="text-xs text-slate-400 font-medium">4 hours ago</span>
+</div>
+<p class="text-slate-700 text-xs leading-relaxed">
+                                                Yes, exactly! Shallow comparison isn't free. If your component is simple and renders fast, the cost of checking props might be higher than just re-rendering it.
+                                            </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<button class="w-full mt-8 py-3 text-sm font-medium text-slate-500 border border-slate-200 bg-white rounded-lg hover:bg-slate-50 hover:text-primary transition-colors shadow-sm">
+                        Load more comments
+                    </button>
+</section>
+</article>
+<aside class="hidden xl:block xl:col-span-3 sticky top-32 h-fit">
+<div class="bg-white rounded-xl p-6 border border-slate-200 shadow-sm mb-6">
+<h3 class="text-sm font-bold text-slate-900 uppercase tracking-wider mb-4">On this page</h3>
+<ul class="space-y-3 text-sm border-l-2 border-slate-100 ml-1">
+<li class="pl-4 border-l-2 border-primary -ml-[2px]">
+<a class="text-primary font-medium" href="#">Introduction</a>
+</li>
+<li class="pl-4 hover:border-l-2 hover:border-slate-300 -ml-[2px] transition-all">
+<a class="text-slate-600 hover:text-slate-900" href="#">The Problem with Re-renders</a>
+</li>
+<li class="pl-4 hover:border-l-2 hover:border-slate-300 -ml-[2px] transition-all">
+<a class="text-slate-600 hover:text-slate-900" href="#">Code Example</a>
+</li>
+<li class="pl-4 hover:border-l-2 hover:border-slate-300 -ml-[2px] transition-all">
+<a class="text-slate-600 hover:text-slate-900" href="#">When to optimize?</a>
+</li>
+<li class="pl-4 hover:border-l-2 hover:border-slate-300 -ml-[2px] transition-all">
+<a class="text-slate-600 hover:text-slate-900" href="#comments">Discussion</a>
+</li>
+</ul>
+</div>
+<div class="bg-white rounded-xl p-6 border border-slate-200 shadow-sm">
+<h3 class="text-sm font-bold text-slate-900 uppercase tracking-wider mb-4">Related Reads</h3>
+<div class="flex flex-col gap-4">
+<a class="group flex gap-3 items-start" href="#">
+<div class="w-16 h-16 rounded-lg bg-slate-100 shrink-0 overflow-hidden border border-slate-100">
+<img alt="React logo gradient" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" data-alt="Abstract gradient mesh representing react logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3WMsEPzkgO1dZqyhZf06Qxh2ZFObkZ2DAGrmZsO-mQYBy3fYLRzCUQS7uaGOCo6GSeSI0_mRD1UlJIHXarWNRa0vigbi7hXwLMfuxrZF29-6Jmyl5uH_VNh6un-91uM7yCp0OoTi4saCTauZSSxkeJESyxS4X_Yi921yH2H7rim64-5ZqEZHbLxZaoO7ursXDPL4FFkPJK5k38ftKWVhLbkudhAhK_1mNCGOkjXK__NS_QvAwGlorlhfeMC71UYZgdzEwBsWyDxU"/>
+</div>
+<div>
+<h4 class="text-sm font-semibold text-slate-800 group-hover:text-primary transition-colors line-clamp-2">Mastering React Hooks in 2024</h4>
+<span class="text-xs text-slate-500 font-medium">Oct 12 • 8 min read</span>
+</div>
+</a>
+<a class="group flex gap-3 items-start" href="#">
+<div class="w-16 h-16 rounded-lg bg-slate-100 shrink-0 overflow-hidden border border-slate-100">
+<img alt="Coding monitor" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" data-alt="Close up of computer code on screen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5Z5O4sCGDHippJdneKJzBSygehUjzoLADy8wxeG_eaPn6XYQIuXxrMOk2bi2wjTOGGmkSAaNqGBVJjEyx4IlQcioriA0FxIaMj0UK78B-vJt-CRrsNX3-ZfYD884-2C2sQvd7e3BTp14AbsbGLWIXCH_k0pp41M2HvJ9f9euU0DQQRJ43Z8dZPbBsVndIHieHOhZLx3mncpJXFy05Ye8ycbyx5Br6ONgMWo8b1kWBU9xrtTA5KhVq_cbMcEjXBM-5vnhrzQHe1oA"/>
+</div>
+<div>
+<h4 class="text-sm font-semibold text-slate-800 group-hover:text-primary transition-colors line-clamp-2">Why TypeScript is winning</h4>
+<span class="text-xs text-slate-500 font-medium">Sep 28 • 6 min read</span>
+</div>
+</a>
+</div>
+</div>
+</aside>
+</div>
+</main>
+<footer class="mt-auto py-10 bg-white border-t border-slate-200 text-center">
+<p class="text-slate-500 text-sm">© 2023 DevLog Platform. All rights reserved.</p>
+</footer>
+
+</body></html>

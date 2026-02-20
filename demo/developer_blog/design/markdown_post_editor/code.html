@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown Post Editor</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"],
+                        "mono": ["JetBrains Mono", "monospace"],
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="font-display bg-background-light text-slate-900 antialiased overflow-hidden flex flex-col h-screen">
+<header class="h-16 border-b border-slate-200 bg-white flex items-center justify-between px-6 shrink-0 z-10 shadow-sm">
+<div class="flex items-center gap-4 flex-1">
+<a class="flex items-center justify-center text-slate-500 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-2xl">arrow_back</span>
+</a>
+<div class="h-6 w-px bg-slate-200 mx-2"></div>
+<div class="flex flex-col">
+<input class="bg-transparent border-none p-0 text-lg font-bold text-slate-900 placeholder-slate-400 focus:ring-0 w-96 leading-tight" placeholder="Enter post title..." type="text" value="Understanding React Server Components"/>
+<span class="text-xs text-slate-500 font-medium flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                Saved just now
+            </span>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<button aria-label="Toggle theme" class="p-2 text-slate-500 hover:text-primary hover:bg-slate-100 rounded-full transition-colors">
+<span class="material-symbols-outlined text-[20px]">light_mode</span>
+</button>
+<button class="flex items-center gap-2 px-3 py-1.5 text-slate-600 hover:bg-slate-100 rounded transition-colors text-sm font-medium border border-transparent hover:border-slate-200">
+<span class="material-symbols-outlined text-[20px]">settings</span>
+            Settings
+        </button>
+<div class="flex items-center gap-2 ml-4">
+<button class="px-4 py-2 bg-slate-100 text-slate-700 text-sm font-medium rounded hover:bg-slate-200 transition-colors border border-slate-200">
+                Save Draft
+            </button>
+<button class="px-4 py-2 bg-primary text-white text-sm font-medium rounded hover:bg-primary/90 transition-colors shadow-md shadow-primary/10">
+                Publish
+            </button>
+</div>
+<div class="ml-4 pl-4 border-l border-slate-200 flex items-center gap-3">
+<div class="h-8 w-8 rounded-full bg-gradient-to-tr from-primary to-purple-500 p-0.5">
+<div class="h-full w-full rounded-full bg-white flex items-center justify-center overflow-hidden">
+<span class="text-xs font-bold text-slate-700">JD</span>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div class="h-12 border-b border-slate-200 bg-gray-50 flex items-center px-6 gap-1 shrink-0">
+<button class="p-1.5 rounded text-slate-600 hover:text-primary hover:bg-white hover:shadow-sm transition-all" title="Bold">
+<span class="material-symbols-outlined text-[20px]">format_bold</span>
+</button>
+<button class="p-1.5 rounded text-slate-600 hover:text-primary hover:bg-white hover:shadow-sm transition-all" title="Italic">
+<span class="material-symbols-outlined text-[20px]">format_italic</span>
+</button>
+<button class="p-1.5 rounded text-slate-600 hover:text-primary hover:bg-white hover:shadow-sm transition-all" title="Strikethrough">
+<span class="material-symbols-outlined text-[20px]">format_strikethrough</span>
+</button>
+<div class="w-px h-4 bg-slate-300 mx-1"></div>
+<button class="p-1.5 rounded text-slate-600 hover:text-primary hover:bg-white hover:shadow-sm transition-all" title="Header 1">
+<span class="material-symbols-outlined text-[20px]">format_h1</span>
+</button>
+<button class="p-1.5 rounded text-slate-600 hover:text-primary hover:bg-white hover:shadow-sm transition-all" title="Header 2">
+<span class="material-symbols-outlined text-[20px]">format_h2</span>
+</button>
+<div class="w-px h-4 bg-slate-300 mx-1"></div>
+<button class="p-1.5 rounded text-slate-600 hover:text-primary hover:bg-white hover:shadow-sm transition-all" title="Quote">
+<span class="material-symbols-outlined text-[20px]">format_quote</span>
+</button>
+<button class="p-1.5 rounded text-slate-600 hover:text-primary hover:bg-white hover:shadow-sm transition-all" title="Code Block">
+<span class="material-symbols-outlined text-[20px]">code</span>
+</button>
+<button class="p-1.5 rounded text-slate-600 hover:text-primary hover:bg-white hover:shadow-sm transition-all" title="Link">
+<span class="material-symbols-outlined text-[20px]">link</span>
+</button>
+<button class="p-1.5 rounded text-slate-600 hover:text-primary hover:bg-white hover:shadow-sm transition-all" title="Image">
+<span class="material-symbols-outlined text-[20px]">image</span>
+</button>
+<div class="flex-1"></div>
+<div class="flex items-center gap-2 text-xs text-slate-500 font-medium">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span>Preview Mode</span>
+</div>
+</div>
+<main class="flex-1 flex overflow-hidden">
+<div class="w-1/2 bg-white border-r border-slate-200 flex flex-col relative group">
+<div class="flex-1 overflow-y-auto custom-scrollbar p-6 font-mono text-sm leading-7">
+<div class="flex">
+<div class="flex flex-col text-right text-slate-300 select-none pr-4 w-12 border-r border-slate-100 mr-4 font-mono text-xs pt-1">
+<span>1</span>
+<span>2</span>
+<span>3</span>
+<span>4</span>
+<span>5</span>
+<span>6</span>
+<span>7</span>
+<span>8</span>
+<span>9</span>
+<span>10</span>
+<span>11</span>
+<span>12</span>
+<span>13</span>
+<span>14</span>
+<span>15</span>
+<span>16</span>
+<span>17</span>
+<span>18</span>
+<span>19</span>
+<span>20</span>
+</div>
+<div class="flex-1 text-slate-800 outline-none whitespace-pre-wrap">
+<span class="text-blue-600 font-bold"># Introduction</span>
+React Server Components (RSC) are a new paradigm in React that allow you to render components on the server. This reduces the bundle size sent to the client and improves initial load performance.
+<span class="text-blue-600 font-bold">## Why RSC?</span>
+Traditionally, React components render on the client. With RSC, we can move data-heavy operations to the server.
+<span class="text-slate-500 italic">&gt; "Server Components allow developers to build apps that span the server and client."</span>
+Here is a simple example of a server component:
+<span class="text-slate-400">```javascript</span>
+<span class="text-purple-600">async</span> <span class="text-blue-600">function</span> <span class="text-yellow-600">getData</span>() {
+  <span class="text-purple-600">const</span> res = <span class="text-purple-600">await</span> <span class="text-yellow-600">fetch</span>(<span class="text-orange-600">'https://api.example.com/data'</span>);
+  <span class="text-purple-600">return</span> res.<span class="text-yellow-600">json</span>();
+}
+<span class="text-purple-600">export default async function</span> <span class="text-yellow-600">Page</span>() {
+  <span class="text-purple-600">const</span> data = <span class="text-purple-600">await</span> <span class="text-yellow-600">getData</span>();
+  <span class="text-purple-600">return</span> (
+    <span class="text-indigo-600">&lt;main&gt;</span>
+<span class="text-indigo-600">&lt;h1&gt;</span>{data.title}<span class="text-indigo-600">&lt;/h1&gt;</span>
+<span class="text-indigo-600">&lt;p&gt;</span>{data.description}<span class="text-indigo-600">&lt;/p&gt;</span>
+<span class="text-indigo-600">&lt;/main&gt;</span>
+  );
+}
+<span class="text-slate-400">```</span>
+<span class="text-blue-600 font-bold">## Key Benefits</span>
+- <span class="text-blue-600 font-bold">**Zero Bundle Size:**</span> Server components don't add to your JS bundle.
+- <span class="text-blue-600 font-bold">**Direct Database Access:**</span> Query your DB directly inside your component.
+- <span class="text-blue-600 font-bold">**Automatic Code Splitting:**</span> Client components imported by server components are automatically code-split.
+                </div>
+</div>
+</div>
+<div class="h-8 bg-slate-50 border-t border-slate-200 flex items-center justify-between px-4 text-xs text-slate-500">
+<div class="flex gap-4">
+<span class="font-medium">Markdown</span>
+<span>UTF-8</span>
+</div>
+<div class="flex gap-4">
+<span>Ln 20, Col 45</span>
+<span>342 words</span>
+</div>
+</div>
+</div>
+<div class="w-1/2 bg-background-light flex flex-col">
+<div class="flex-1 overflow-y-auto p-12 custom-scrollbar">
+<article class="prose prose-slate max-w-none">
+<h1 class="text-4xl font-bold mb-6 text-slate-900 tracking-tight">Introduction</h1>
+<p class="text-lg text-slate-700 mb-6 leading-relaxed">
+                    React Server Components (RSC) are a new paradigm in React that allow you to render components on the server. This reduces the bundle size sent to the client and improves initial load performance.
+                </p>
+<h2 class="text-2xl font-bold mb-4 text-slate-900 mt-8 border-b border-slate-200 pb-2">Why RSC?</h2>
+<p class="text-slate-700 mb-6 leading-relaxed">
+                    Traditionally, React components render on the client. With RSC, we can move data-heavy operations to the server.
+                </p>
+<blockquote class="border-l-4 border-primary pl-4 py-1 my-6 italic text-slate-600 bg-white shadow-sm rounded-r pr-4">
+                    "Server Components allow developers to build apps that span the server and client."
+                </blockquote>
+<p class="text-slate-700 mb-4 leading-relaxed">
+                    Here is a simple example of a server component:
+                </p>
+<div class="rounded-lg overflow-hidden bg-slate-900 text-sm my-6 shadow-md border border-slate-200">
+<div class="flex items-center justify-between px-4 py-2 bg-slate-800 border-b border-slate-700">
+<span class="text-slate-400 font-mono text-xs">page.jsx</span>
+<button class="text-slate-500 hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+</button>
+</div>
+<div class="p-4 font-mono overflow-x-auto text-slate-300">
+<pre><code><span class="text-purple-400">async</span> <span class="text-blue-400">function</span> <span class="text-yellow-200">getData</span>() {
+  <span class="text-purple-400">const</span> res = <span class="text-purple-400">await</span> <span class="text-yellow-200">fetch</span>(<span class="text-orange-300">'https://api.example.com/data'</span>);
+  <span class="text-purple-400">return</span> res.<span class="text-yellow-200">json</span>();
+}
+<span class="text-purple-400">export default async function</span> <span class="text-yellow-200">Page</span>() {
+  <span class="text-purple-400">const</span> data = <span class="text-purple-400">await</span> <span class="text-yellow-200">getData</span>();
+  <span class="text-purple-400">return</span> (
+    <span class="text-blue-300">&lt;main&gt;</span>
+      <span class="text-blue-300">&lt;h1&gt;</span>{data.title}<span class="text-blue-300">&lt;/h1&gt;</span>
+      <span class="text-blue-300">&lt;p&gt;</span>{data.description}<span class="text-blue-300">&lt;/p&gt;</span>
+    <span class="text-blue-300">&lt;/main&gt;</span>
+  );
+}</code></pre>
+</div>
+</div>
+<h2 class="text-2xl font-bold mb-4 text-slate-900 mt-10 border-b border-slate-200 pb-2">Key Benefits</h2>
+<ul class="list-disc pl-6 space-y-2 text-slate-700 mb-8 marker:text-primary">
+<li><strong class="text-slate-900 font-semibold">Zero Bundle Size:</strong> Server components don't add to your JS bundle.</li>
+<li><strong class="text-slate-900 font-semibold">Direct Database Access:</strong> Query your DB directly inside your component.</li>
+<li><strong class="text-slate-900 font-semibold">Automatic Code Splitting:</strong> Client components imported by server components are automatically code-split.</li>
+</ul>
+<div class="h-20"></div> 
+</article>
+</div>
+</div>
+</main>
+<style>
+    .custom-scrollbar::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 5px;
+        border: 2px solid transparent;
+        background-clip: content-box;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        background-color: #94a3b8;
+    }
+</style>
+
+</body></html>

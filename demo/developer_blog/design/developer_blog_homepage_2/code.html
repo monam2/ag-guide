@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>DevLog - Developer Blog</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "background-light": "#FAFAFA", // Updated to requested off-white
+                        "text-main": "#1A1A1A", // Updated to requested dark charcoal
+                        "surface-light": "#FFFFFF",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"],
+                        "body": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light text-text-main antialiased min-h-screen flex flex-col">
+<div class="sticky top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur">
+<div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+<div class="flex items-center gap-2">
+<div class="flex size-8 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined text-xl">terminal</span>
+</div>
+<h1 class="text-xl font-bold tracking-tight text-text-main">DevLog</h1>
+</div>
+<div class="hidden flex-1 items-center justify-center px-8 md:flex gap-4">
+<div class="relative w-full max-w-md">
+<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3 text-slate-400">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</div>
+<input class="block w-full rounded-lg border border-gray-200 bg-white py-2 pl-10 pr-12 text-sm text-text-main placeholder:text-slate-500 focus:border-primary focus:ring-2 focus:ring-primary/20 sm:leading-6" placeholder="Search posts..." type="text"/>
+<div class="absolute inset-y-0 right-0 flex items-center pr-3">
+<span class="inline-flex items-center rounded border border-gray-200 px-1.5 py-0.5 text-xs font-medium text-slate-500 bg-gray-50">⌘K</span>
+</div>
+</div>
+<button class="flex items-center justify-center p-2 rounded-lg text-slate-500 hover:bg-gray-100 hover:text-primary transition-colors" title="Toggle Theme">
+<span class="material-symbols-outlined text-[20px]">light_mode</span>
+</button>
+</div>
+<div class="flex items-center gap-4">
+<button class="text-sm font-semibold leading-6 text-text-main hover:text-primary transition-colors hidden sm:block">
+                    Sign In
+                </button>
+<button class="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition-all">
+                    Get Started
+                </button>
+</div>
+</div>
+</div>
+<main class="flex-1">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+<div class="mb-12 text-center md:text-left">
+<h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl text-text-main mb-4">
+                    Engineering the Future
+                </h2>
+<p class="text-lg text-slate-600 max-w-2xl">
+                    Deep dives into frontend architecture, backend scalability, and the latest in DevOps. Built by developers, for developers.
+                </p>
+<div class="mt-8 flex flex-wrap gap-2 justify-center md:justify-start">
+<button class="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20 hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined text-[18px]">apps</span>
+                        All Posts
+                    </button>
+<button class="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-medium text-slate-600 ring-1 ring-inset ring-gray-200 hover:bg-gray-50 hover:text-slate-900 transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[18px]">html</span>
+                        Frontend
+                    </button>
+<button class="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-medium text-slate-600 ring-1 ring-inset ring-gray-200 hover:bg-gray-50 hover:text-slate-900 transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[18px]">dns</span>
+                        Backend
+                    </button>
+<button class="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-medium text-slate-600 ring-1 ring-inset ring-gray-200 hover:bg-gray-50 hover:text-slate-900 transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[18px]">cloud</span>
+                        DevOps
+                    </button>
+</div>
+</div>
+<div class="relative mb-12 overflow-hidden rounded-2xl bg-white shadow-lg ring-1 ring-black/5 group">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10"></div>
+<div class="absolute inset-0 h-full w-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Code editor showing dark theme syntax highlighting" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA5wVKHC6eWP9OOCPzjQXUfv0e_PGixsZzfPW0r27k1q3aYgKXcYCmwiDKnqqu2c3c-MppBEAgHp5krBJBEW8XRATMhJI7EDQ1iZ9u6weVeiU6MQvMVz-_nPXT3hdQkPHE9T2BCLsIpcmDZHjFGcGj01KIBV8KlO0I7mnyb-pEB5LrzaO9otUDrQfYovJZibmFmvSqki-eGKb4fFfKbCT0Bv1UfWj1MRoSC8MF61v5Evqhqg2vzyZOXHfoRzJu56juU2ZXxVMv6DOU');">
+</div>
+<div class="relative z-20 flex h-full min-h-[400px] flex-col justify-end p-6 md:p-10">
+<div class="flex items-center gap-3 mb-4">
+<span class="inline-flex items-center rounded-md bg-primary/90 px-2.5 py-1 text-xs font-medium text-white ring-1 ring-inset ring-primary/30 backdrop-blur-sm shadow-sm">
+                            Featured
+                        </span>
+<span class="text-xs font-medium text-white/90 flex items-center gap-1 drop-shadow-sm">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 8 min read
+                        </span>
+</div>
+<h3 class="mt-2 text-3xl font-bold tracking-tight text-white md:text-4xl lg:text-5xl max-w-3xl leading-tight drop-shadow-md">
+                        The Evolution of React Server Components: A 2024 Perspective
+                    </h3>
+<p class="mt-4 text-lg text-white/90 max-w-2xl leading-relaxed line-clamp-2 md:line-clamp-none drop-shadow-sm">
+                        Understanding how RSCs are reshaping the data fetching paradigm and what it means for the future of Next.js applications.
+                    </p>
+<div class="mt-8 flex items-center gap-4">
+<div class="flex items-center gap-3">
+<div class="h-10 w-10 overflow-hidden rounded-full bg-white ring-2 ring-white">
+<img alt="Author" class="h-full w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiCyv6k1Yv7H394mPgh8BPnfdS65r2H1bJNMhVujnLUUcEFqtPzfep1BoPZ2krfI2CbheDyWQ_4IW7436xRoqAS47FFei4ADEro2-LlmZuSqg7FN75pfX-i_GyMG6YPBG42u3HurxEVa0I8QrVgS5EoWvBkyOdTMw34hiPYDN3f8cIh2uXwNLPLRlKYKCduL18Q_lj1hMYvPSylm9DTi2JvnbmtkmxGjnRbL3uKhkEPBTkye5BJqNnGTwoobhyaFuDQGaspw7E6Gw"/>
+</div>
+<div class="text-sm font-medium text-white drop-shadow-sm">
+<span>Alex Chen</span>
+<span class="mx-1 text-white/60">•</span>
+<span class="text-white/80">Oct 24, 2023</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+<article class="flex flex-col overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-gray-200 transition hover:shadow-lg hover:ring-primary/30 group">
+<div class="relative h-48 w-full overflow-hidden bg-gray-100">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Abstract digital network visualization with blue lines" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD4leZi2wQTQdHCcwye35PJAZG2WNG5fQAF-ek9u1M9-YHLQU20g9SCGVsf2ocx700BrZ6wIANymy1nBZEIJ8dQYS2Ki9MkgqzGhtHEy9xJCvJJ33arQCnGtmrpqfxXkMbOmRXbZZln4Bhu3CAbA21Vrtdptp9-BJjvzmgaDIoCkNJCeBTnxQFMSjc2pKnqLrVXrYG-qUqIhknSxNiqf_1dYMLHAQgENxtU18KAYm25NbQzns-psxHSvInfCajIDHRFZkc9-hgwOSI');">
+</div>
+<div class="absolute top-4 left-4">
+<span class="inline-flex items-center rounded-md bg-white/90 px-2 py-1 text-xs font-medium text-slate-800 shadow-sm backdrop-blur-md">
+                                System Design
+                            </span>
+</div>
+</div>
+<div class="flex flex-1 flex-col justify-between p-6">
+<div class="flex-1">
+<h3 class="text-xl font-bold leading-snug text-text-main group-hover:text-primary transition-colors">
+                                Scaling Microservices with Kubernetes
+                            </h3>
+<p class="mt-3 text-sm leading-6 text-slate-600 line-clamp-3">
+                                Best practices for managing cluster resources, configuring auto-scaling, and ensuring high availability in production environments.
+                            </p>
+</div>
+<div class="mt-6 flex items-center justify-between border-t border-gray-100 pt-4">
+<div class="flex items-center gap-x-2 text-xs font-medium text-slate-500">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+                                Oct 20, 2023
+                            </div>
+<div class="flex items-center gap-x-1 text-xs font-medium text-slate-500">
+<span class="material-symbols-outlined text-[16px]">timer</span>
+                                12 min read
+                            </div>
+</div>
+</div>
+</article>
+<article class="flex flex-col overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-gray-200 transition hover:shadow-lg hover:ring-primary/30 group">
+<div class="relative h-48 w-full overflow-hidden bg-gray-100">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Close up of mechanical keyboard switches" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAhtGllEse-1XoY662bZkFJRxvptNFxlQFfHjstzbA4p0Y0WZcAFwLrdtKyZ0EhZfukXa9OJM7GDWqvTHe34clSfZB-v0LcBO8CgqdZzIo6S2PLW6nDAto805TlPc4wuZnKeXrvw1HGaOF1Whlw2us82fM2E47qVnrL0ABekXtBDFr49bgg3UtWQj2rAqy2XpY9N3rQ64rUkHFeBIjes9ffw2ScEW7jf4hoyniNP34WQMKHj8bUe09c2bDm3KyEc1doRvDHo5aQCjY');">
+</div>
+<div class="absolute top-4 left-4">
+<span class="inline-flex items-center rounded-md bg-white/90 px-2 py-1 text-xs font-medium text-slate-800 shadow-sm backdrop-blur-md">
+                                Frontend
+                            </span>
+</div>
+</div>
+<div class="flex flex-1 flex-col justify-between p-6">
+<div class="flex-1">
+<h3 class="text-xl font-bold leading-snug text-text-main group-hover:text-primary transition-colors">
+                                CSS Container Queries are Finally Here
+                            </h3>
+<p class="mt-3 text-sm leading-6 text-slate-600 line-clamp-3">
+                                Move over Media Queries. Learn how to build truly responsive components that adapt to their container size, not just the viewport.
+                            </p>
+</div>
+<div class="mt-6 flex items-center justify-between border-t border-gray-100 pt-4">
+<div class="flex items-center gap-x-2 text-xs font-medium text-slate-500">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+                                Oct 18, 2023
+                            </div>
+<div class="flex items-center gap-x-1 text-xs font-medium text-slate-500">
+<span class="material-symbols-outlined text-[16px]">timer</span>
+                                5 min read
+                            </div>
+</div>
+</div>
+</article>
+<article class="flex flex-col overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-gray-200 transition hover:shadow-lg hover:ring-primary/30 group">
+<div class="relative h-48 w-full overflow-hidden bg-gray-100">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Abstract blue code syntax on dark screen" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCGfmC4S2CFXTcO2NPy6sUHRp8VKuX51Aeuqrp7oym7R4AWNrzKU7z0iCq8OuHBGjxbXuhNDUACe1iAvqqUnnusoHD7Zj9NkuPD_H5dyLcS_XNDl5yIQibcUKRa4IbcAeMc1uoo0Bwk-XcDrKGm2yqNcBIKnSj0a6QGNNXA-hH1FMsTDkv0EQh-bhlI7Li_SX0CsFlSPcPAf7BSEhSFbUDP2WNxJZFAGJvEZDdfLcYWzuqetXEivD_b-kubzHOeeHJAXd9PVSL6XSk');">
+</div>
+<div class="absolute top-4 left-4">
+<span class="inline-flex items-center rounded-md bg-white/90 px-2 py-1 text-xs font-medium text-slate-800 shadow-sm backdrop-blur-md">
+                                DevOps
+                            </span>
+</div>
+</div>
+<div class="flex flex-1 flex-col justify-between p-6">
+<div class="flex-1">
+<h3 class="text-xl font-bold leading-snug text-text-main group-hover:text-primary transition-colors">
+                                Automating Deployments with GitHub Actions
+                            </h3>
+<p class="mt-3 text-sm leading-6 text-slate-600 line-clamp-3">
+                                A step-by-step guide to setting up CI/CD pipelines for your Node.js applications using GitHub's native automation tool.
+                            </p>
+</div>
+<div class="mt-6 flex items-center justify-between border-t border-gray-100 pt-4">
+<div class="flex items-center gap-x-2 text-xs font-medium text-slate-500">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+                                Oct 15, 2023
+                            </div>
+<div class="flex items-center gap-x-1 text-xs font-medium text-slate-500">
+<span class="material-symbols-outlined text-[16px]">timer</span>
+                                8 min read
+                            </div>
+</div>
+</div>
+</article>
+<article class="flex flex-col overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-gray-200 transition hover:shadow-lg hover:ring-primary/30 group">
+<div class="relative h-48 w-full overflow-hidden bg-gray-100">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="React logo 3D rendering with dark background" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCUbaAWVA_Amg13miTpj0AEBL_kd9Wbz0xMDfXkJosWJ4FOIF73xWvwboN_tAurNqpzAiAqABv3ZgGqkwcR62hrqLU8DAGhwvPSQl-sDvKN5Jgis_FIu72PvBX5yILo65zU8HQwvgZAH_ut4PEeHVhetBIDOjWs4YDIvZ3_UhAUkkprY8A62cAS7onxJUmLhldvGGduavu3tM73BqWVQ2x58VDKCE8MSR6qGBvUwiBxQIrB4tfFIm-w_AnKdVH3vqIg_iysXSeFCMU');">
+</div>
+<div class="absolute top-4 left-4">
+<span class="inline-flex items-center rounded-md bg-white/90 px-2 py-1 text-xs font-medium text-slate-800 shadow-sm backdrop-blur-md">
+                                React
+                            </span>
+</div>
+</div>
+<div class="flex flex-1 flex-col justify-between p-6">
+<div class="flex-1">
+<h3 class="text-xl font-bold leading-snug text-text-main group-hover:text-primary transition-colors">
+                                Mastering useEffect and Its Pitfalls
+                            </h3>
+<p class="mt-3 text-sm leading-6 text-slate-600 line-clamp-3">
+                                Stop writing buggy React code. We explore the dependency array, cleanup functions, and common mistakes developers make.
+                            </p>
+</div>
+<div class="mt-6 flex items-center justify-between border-t border-gray-100 pt-4">
+<div class="flex items-center gap-x-2 text-xs font-medium text-slate-500">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+                                Oct 12, 2023
+                            </div>
+<div class="flex items-center gap-x-1 text-xs font-medium text-slate-500">
+<span class="material-symbols-outlined text-[16px]">timer</span>
+                                6 min read
+                            </div>
+</div>
+</div>
+</article>
+<article class="flex flex-col overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-gray-200 transition hover:shadow-lg hover:ring-primary/30 group">
+<div class="relative h-48 w-full overflow-hidden bg-gray-100">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Matrix style digital green code rain" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAHPXCYRXwAoi8Op7t7nOYgSDMgQ-i3JsKtqQaE_-rFCYejR2WMZaHdWLYIXF-WpqQdIfDthkzixanx15vdlVfj1xUcwELf4kMWQuPNN93JLHbMd9F--RqdCSXkFwrtK1kIrFSeGIcPZu_wgnilQs-NW0wZFQoEVTaAN9-zzaRjeh7Y8oy99s3yDHJJPPnj3PJf7Pc0eYsVi2KNeDWbpZKGrtto8hLSxJZ7AmhpZXoqoDmM7hgxmSyxS5KBAddpdf-sCwqR5VXxOJQ');">
+</div>
+<div class="absolute top-4 left-4">
+<span class="inline-flex items-center rounded-md bg-white/90 px-2 py-1 text-xs font-medium text-slate-800 shadow-sm backdrop-blur-md">
+                                Security
+                            </span>
+</div>
+</div>
+<div class="flex flex-1 flex-col justify-between p-6">
+<div class="flex-1">
+<h3 class="text-xl font-bold leading-snug text-text-main group-hover:text-primary transition-colors">
+                                OWASP Top 10: 2024 Edition
+                            </h3>
+<p class="mt-3 text-sm leading-6 text-slate-600 line-clamp-3">
+                                Security isn't an afterthought. Review the most critical web application security risks and how to mitigate them effectively.
+                            </p>
+</div>
+<div class="mt-6 flex items-center justify-between border-t border-gray-100 pt-4">
+<div class="flex items-center gap-x-2 text-xs font-medium text-slate-500">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+                                Oct 10, 2023
+                            </div>
+<div class="flex items-center gap-x-1 text-xs font-medium text-slate-500">
+<span class="material-symbols-outlined text-[16px]">timer</span>
+                                15 min read
+                            </div>
+</div>
+</div>
+</article>
+<article class="flex flex-col overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-gray-200 transition hover:shadow-lg hover:ring-primary/30 group">
+<div class="relative h-48 w-full overflow-hidden bg-gray-100">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Abstract dark geometric shapes with subtle lighting" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAWL0SwuxFZ0-uI8uEVQO2MrJICxHDGqqwtIwWcuya1TEdDqLT-HxXvHMi3CoyyxyZo3vqX3rPnVe3B86wv6-hXrYPe9rgQo6jPxKjRZmWugelkUZAtPMedxaYVrTm7gzeDLp9aT0Wr2PZjD4i6EePBsS6mzUugZZQOfHmHvjemb15H9tXUJSJ8KzGFxI0EgWsPA5i2QYmMPc7Po_EguQnFstXAOsgJyf8_ZgRCAf-G3339SPdLikv3jrQZEqhhrexKGFH1iAmPWOw');">
+</div>
+<div class="absolute top-4 left-4">
+<span class="inline-flex items-center rounded-md bg-white/90 px-2 py-1 text-xs font-medium text-slate-800 shadow-sm backdrop-blur-md">
+                                Database
+                            </span>
+</div>
+</div>
+<div class="flex flex-1 flex-col justify-between p-6">
+<div class="flex-1">
+<h3 class="text-xl font-bold leading-snug text-text-main group-hover:text-primary transition-colors">
+                                Choosing the Right Database for Your Project
+                            </h3>
+<p class="mt-3 text-sm leading-6 text-slate-600 line-clamp-3">
+                                SQL vs NoSQL? Postgres vs Mongo? We break down the trade-offs to help you make the best architectural decision.
+                            </p>
+</div>
+<div class="mt-6 flex items-center justify-between border-t border-gray-100 pt-4">
+<div class="flex items-center gap-x-2 text-xs font-medium text-slate-500">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+                                Oct 08, 2023
+                            </div>
+<div class="flex items-center gap-x-1 text-xs font-medium text-slate-500">
+<span class="material-symbols-outlined text-[16px]">timer</span>
+                                9 min read
+                            </div>
+</div>
+</div>
+</article>
+</div>
+<div class="mt-12 flex justify-center">
+<button class="flex items-center gap-2 rounded-lg border border-gray-300 bg-white px-6 py-3 text-sm font-semibold text-slate-700 hover:bg-gray-50 hover:text-primary transition-colors shadow-sm">
+<span class="material-symbols-outlined text-lg">refresh</span>
+                    Load More Posts
+                </button>
+</div>
+</div>
+</main>
+<footer class="border-t border-gray-200 bg-white py-12">
+<div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-4 sm:px-6 lg:flex-row lg:px-8">
+<div class="flex items-center gap-2">
+<div class="flex size-6 items-center justify-center rounded bg-primary text-white">
+<span class="material-symbols-outlined text-sm">terminal</span>
+</div>
+<span class="text-lg font-bold text-text-main">DevLog</span>
+</div>
+<p class="text-sm text-slate-500">
+                © 2023 DevLog Inc. All rights reserved.
+            </p>
+<div class="flex gap-6">
+<a class="text-slate-400 hover:text-slate-600" href="#">
+<span class="sr-only">GitHub</span>
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+<path clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" fill-rule="evenodd"></path>
+</svg>
+</a>
+<a class="text-slate-400 hover:text-slate-600" href="#">
+<span class="sr-only">Twitter</span>
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+<path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+</svg>
+</a>
+</div>
+</div>
+</footer>
+
+</body></html>
