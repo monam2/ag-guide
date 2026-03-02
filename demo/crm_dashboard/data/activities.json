@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "act-192",
+    "type": "meeting",
+    "description": "협상 미팅",
+    "user": "Sarah Johnson",
+    "customerId": "cust-193",
+    "customerName": "문지민",
+    "timestamp": "2026-02-27T19:20:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-185",
+    "type": "meeting",
+    "description": "온보딩 미팅",
+    "user": "Sarah Johnson",
+    "customerId": "cust-186",
+    "customerName": "조현우",
+    "timestamp": "2026-02-25T13:50:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-052",
+    "type": "call",
+    "description": "고객 통화 완료",
+    "user": "김민준",
+    "customerId": "cust-053",
+    "customerName": "Donna King",
+    "timestamp": "2026-02-21T17:37:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-008",
+    "type": "task",
+    "description": "데이터 마이그레이션",
+    "user": "Sarah Johnson",
+    "customerId": "cust-009",
+    "customerName": "한소율",
+    "timestamp": "2026-02-18T08:33:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-091",
+    "type": "email",
+    "description": "계약서 이메일",
+    "user": "김민준",
+    "customerId": "cust-092",
+    "customerName": "Michael Brown",
+    "timestamp": "2026-02-16T09:52:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-158",
+    "type": "meeting",
+    "description": "협상 미팅",
+    "user": "정도윤",
+    "customerId": "cust-159",
+    "customerName": "Amanda White",
+    "timestamp": "2026-02-07T20:31:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-090",
+    "type": "call",
+    "description": "영업 전화 진행",
+    "user": "Sarah Johnson",
+    "customerId": "cust-091",
+    "customerName": "Sarah Johnson",
+    "timestamp": "2026-02-07T13:51:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-129",
+    "type": "task",
+    "description": "트레이닝 세션",
+    "user": "박지훈",
+    "customerId": "cust-130",
+    "customerName": "오세준",
+    "timestamp": "2026-02-04T12:22:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-015",
+    "type": "email",
+    "description": "뉴스레터 발송",
+    "user": "최수아",
+    "customerId": "cust-016",
+    "customerName": "노준혁",
+    "timestamp": "2026-02-02T19:12:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-079",
+    "type": "task",
+    "description": "트레이닝 세션",
+    "user": "김민준",
+    "customerId": "cust-080",
+    "customerName": "류지아",
+    "timestamp": "2026-02-01T18:41:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-138",
+    "type": "task",
+    "description": "제안서 작성 완료",
+    "user": "김민준",
+    "customerId": "cust-139",
+    "customerName": "방소연",
+    "timestamp": "2026-01-30T14:33:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-179",
+    "type": "email",
+    "description": "미팅 확인 이메일",
+    "user": "Michael Brown",
+    "customerId": "cust-180",
+    "customerName": "김민준",
+    "timestamp": "2026-01-28T16:09:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-148",
+    "type": "note",
+    "description": "특이사항 메모",
+    "user": "김민준",
+    "customerId": "cust-149",
+    "customerName": "우서준",
+    "timestamp": "2026-01-28T14:51:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-056",
+    "type": "email",
+    "description": "미팅 확인 이메일",
+    "user": "박지훈",
+    "customerId": "cust-057",
+    "customerName": "Sandra Adams",
+    "timestamp": "2026-01-23T16:08:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-109",
+    "type": "task",
+    "description": "데이터 마이그레이션",
+    "user": "박지훈",
+    "customerId": "cust-110",
+    "customerName": "Kevin Moore",
+    "timestamp": "2026-01-18T18:59:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-089",
+    "type": "note",
+    "description": "통화 내용 기록",
+    "user": "이서연",
+    "customerId": "cust-090",
+    "customerName": "James Wilson",
+    "timestamp": "2026-01-18T11:28:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-164",
+    "type": "meeting",
+    "description": "분기 리뷰 미팅",
+    "user": "김민준",
+    "customerId": "cust-165",
+    "customerName": "Barbara Lewis",
+    "timestamp": "2026-01-17T16:33:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-136",
+    "type": "email",
+    "description": "팔로업 이메일 전송",
+    "user": "정도윤",
+    "customerId": "cust-137",
+    "customerName": "엄수빈",
+    "timestamp": "2026-01-16T19:47:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-014",
+    "type": "task",
+    "description": "제안서 작성 완료",
+    "user": "김민준",
+    "customerId": "cust-015",
+    "customerName": "백다은",
+    "timestamp": "2026-01-16T12:12:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-140",
+    "type": "meeting",
+    "description": "분기 리뷰 미팅",
+    "user": "최수아",
+    "customerId": "cust-141",
+    "customerName": "서현진",
+    "timestamp": "2026-01-13T12:28:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-162",
+    "type": "note",
+    "description": "요구사항 정리",
+    "user": "최수아",
+    "customerId": "cust-163",
+    "customerName": "Linda Robinson",
+    "timestamp": "2026-01-13T08:12:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-057",
+    "type": "email",
+    "description": "팔로업 이메일 전송",
+    "user": "박지훈",
+    "customerId": "cust-058",
+    "customerName": "Timothy Nelson",
+    "timestamp": "2026-01-12T19:30:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-110",
+    "type": "note",
+    "description": "통화 내용 기록",
+    "user": "최수아",
+    "customerId": "cust-111",
+    "customerName": "Nancy Lee",
+    "timestamp": "2026-01-12T11:55:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-177",
+    "type": "note",
+    "description": "고객 피드백 메모",
+    "user": "Sarah Johnson",
+    "customerId": "cust-178",
+    "customerName": "Timothy Nelson",
+    "timestamp": "2026-01-11T10:56:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-186",
+    "type": "task",
+    "description": "데이터 마이그레이션",
+    "user": "김민준",
+    "customerId": "cust-187",
+    "customerName": "윤지우",
+    "timestamp": "2026-01-11T09:53:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-099",
+    "type": "call",
+    "description": "고객 통화 완료",
+    "user": "정도윤",
+    "customerId": "cust-100",
+    "customerName": "Matthew Harris",
+    "timestamp": "2026-01-07T16:58:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-093",
+    "type": "meeting",
+    "description": "킥오프 미팅 완료",
+    "user": "김민준",
+    "customerId": "cust-094",
+    "customerName": "Robert Taylor",
+    "timestamp": "2026-01-06T14:59:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-122",
+    "type": "task",
+    "description": "계약서 검토",
+    "user": "이서연",
+    "customerId": "cust-123",
+    "customerName": "최수아",
+    "timestamp": "2026-01-05T12:51:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-071",
+    "type": "task",
+    "description": "설정 완료",
+    "user": "김민준",
+    "customerId": "cust-072",
+    "customerName": "홍승현",
+    "timestamp": "2026-01-04T19:42:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-067",
+    "type": "email",
+    "description": "계약서 이메일",
+    "user": "James Wilson",
+    "customerId": "cust-068",
+    "customerName": "임채원",
+    "timestamp": "2026-01-04T09:30:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-094",
+    "type": "task",
+    "description": "트레이닝 세션",
+    "user": "정도윤",
+    "customerId": "cust-095",
+    "customerName": "Jessica Martinez",
+    "timestamp": "2025-12-31T17:03:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-173",
+    "type": "meeting",
+    "description": "킥오프 미팅 완료",
+    "user": "Michael Brown",
+    "customerId": "cust-174",
+    "customerName": "George Wright",
+    "timestamp": "2025-12-28T15:35:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-004",
+    "type": "email",
+    "description": "계약서 이메일",
+    "user": "정도윤",
+    "customerId": "cust-005",
+    "customerName": "강민서",
+    "timestamp": "2025-12-26T16:55:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-035",
+    "type": "task",
+    "description": "제안서 작성 완료",
+    "user": "김민준",
+    "customerId": "cust-036",
+    "customerName": "David Anderson",
+    "timestamp": "2025-12-25T09:22:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-046",
+    "type": "meeting",
+    "description": "온보딩 미팅",
+    "user": "정도윤",
+    "customerId": "cust-047",
+    "customerName": "Susan Hall",
+    "timestamp": "2025-12-22T17:09:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-103",
+    "type": "task",
+    "description": "트레이닝 세션",
+    "user": "정도윤",
+    "customerId": "cust-104",
+    "customerName": "Andrew Clark",
+    "timestamp": "2025-12-22T15:24:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-168",
+    "type": "call",
+    "description": "팔로업 전화",
+    "user": "Michael Brown",
+    "customerId": "cust-169",
+    "customerName": "Karen Young",
+    "timestamp": "2025-12-19T17:09:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-172",
+    "type": "note",
+    "description": "통화 내용 기록",
+    "user": "김민준",
+    "customerId": "cust-173",
+    "customerName": "Donna King",
+    "timestamp": "2025-12-19T14:22:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-010",
+    "type": "meeting",
+    "description": "분기 리뷰 미팅",
+    "user": "정도윤",
+    "customerId": "cust-011",
+    "customerName": "신예린",
+    "timestamp": "2025-12-16T12:09:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-104",
+    "type": "email",
+    "description": "뉴스레터 발송",
+    "user": "Michael Brown",
+    "customerId": "cust-105",
+    "customerName": "Barbara Lewis",
+    "timestamp": "2025-12-15T15:57:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-112",
+    "type": "call",
+    "description": "고객 통화 완료",
+    "user": "이서연",
+    "customerId": "cust-113",
+    "customerName": "Donna King",
+    "timestamp": "2025-12-13T18:31:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-189",
+    "type": "call",
+    "description": "팔로업 전화",
+    "user": "James Wilson",
+    "customerId": "cust-190",
+    "customerName": "오세준",
+    "timestamp": "2025-12-12T15:44:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-042",
+    "type": "email",
+    "description": "제안서 이메일 발송",
+    "user": "박지훈",
+    "customerId": "cust-043",
+    "customerName": "Linda Robinson",
+    "timestamp": "2025-12-10T20:36:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-024",
+    "type": "task",
+    "description": "제안서 작성 완료",
+    "user": "이서연",
+    "customerId": "cust-025",
+    "customerName": "천지원",
+    "timestamp": "2025-12-09T13:28:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-001",
+    "type": "email",
+    "description": "제안서 이메일 발송",
+    "user": "Sarah Johnson",
+    "customerId": "cust-002",
+    "customerName": "박지훈",
+    "timestamp": "2025-12-03T17:38:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-133",
+    "type": "email",
+    "description": "뉴스레터 발송",
+    "user": "James Wilson",
+    "customerId": "cust-134",
+    "customerName": "양태양",
+    "timestamp": "2025-12-01T12:45:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-028",
+    "type": "note",
+    "description": "고객 피드백 메모",
+    "user": "정도윤",
+    "customerId": "cust-029",
+    "customerName": "우서준",
+    "timestamp": "2025-11-30T11:20:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-068",
+    "type": "note",
+    "description": "통화 내용 기록",
+    "user": "박지훈",
+    "customerId": "cust-069",
+    "customerName": "한소율",
+    "timestamp": "2025-11-28T14:01:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-050",
+    "type": "task",
+    "description": "제안서 작성 완료",
+    "user": "박지훈",
+    "customerId": "cust-051",
+    "customerName": "Nancy Lee",
+    "timestamp": "2025-11-27T17:05:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-170",
+    "type": "call",
+    "description": "고객 통화 완료",
+    "user": "James Wilson",
+    "customerId": "cust-171",
+    "customerName": "Nancy Lee",
+    "timestamp": "2025-11-27T10:44:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-131",
+    "type": "note",
+    "description": "통화 내용 기록",
+    "user": "박지훈",
+    "customerId": "cust-132",
+    "customerName": "홍승현",
+    "timestamp": "2025-11-24T20:59:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-166",
+    "type": "email",
+    "description": "제안서 이메일 발송",
+    "user": "최수아",
+    "customerId": "cust-167",
+    "customerName": "Susan Hall",
+    "timestamp": "2025-11-21T14:20:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-038",
+    "type": "email",
+    "description": "계약서 이메일",
+    "user": "정도윤",
+    "customerId": "cust-039",
+    "customerName": "Amanda White",
+    "timestamp": "2025-11-21T10:19:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-029",
+    "type": "call",
+    "description": "영업 전화 진행",
+    "user": "김민준",
+    "customerId": "cust-030",
+    "customerName": "James Wilson",
+    "timestamp": "2025-11-17T09:13:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-096",
+    "type": "email",
+    "description": "제안서 이메일 발송",
+    "user": "최수아",
+    "customerId": "cust-097",
+    "customerName": "Ashley Thomas",
+    "timestamp": "2025-11-11T10:43:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-002",
+    "type": "task",
+    "description": "설정 완료",
+    "user": "Sarah Johnson",
+    "customerId": "cust-003",
+    "customerName": "최수아",
+    "timestamp": "2025-11-08T19:48:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-072",
+    "type": "call",
+    "description": "영업 전화 진행",
+    "user": "Michael Brown",
+    "customerId": "cust-073",
+    "customerName": "문지민",
+    "timestamp": "2025-11-07T15:55:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-100",
+    "type": "meeting",
+    "description": "제품 데모 세션",
+    "user": "최수아",
+    "customerId": "cust-101",
+    "customerName": "Jennifer Garcia",
+    "timestamp": "2025-11-07T11:29:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-064",
+    "type": "meeting",
+    "description": "협상 미팅",
+    "user": "Michael Brown",
+    "customerId": "cust-065",
+    "customerName": "강민서",
+    "timestamp": "2025-11-06T08:32:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-073",
+    "type": "email",
+    "description": "팔로업 이메일 전송",
+    "user": "Sarah Johnson",
+    "customerId": "cust-074",
+    "customerName": "양태양",
+    "timestamp": "2025-11-04T10:50:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-175",
+    "type": "meeting",
+    "description": "협상 미팅",
+    "user": "정도윤",
+    "customerId": "cust-176",
+    "customerName": "Edward Baker",
+    "timestamp": "2025-11-03T16:10:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-019",
+    "type": "call",
+    "description": "영업 전화 진행",
+    "user": "James Wilson",
+    "customerId": "cust-020",
+    "customerName": "류지아",
+    "timestamp": "2025-11-02T08:49:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-143",
+    "type": "email",
+    "description": "미팅 확인 이메일",
+    "user": "박지훈",
+    "customerId": "cust-144",
+    "customerName": "전예솔",
+    "timestamp": "2025-10-30T17:29:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-062",
+    "type": "note",
+    "description": "요구사항 정리",
+    "user": "James Wilson",
+    "customerId": "cust-063",
+    "customerName": "최수아",
+    "timestamp": "2025-10-28T18:57:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-098",
+    "type": "meeting",
+    "description": "협상 미팅",
+    "user": "Sarah Johnson",
+    "customerId": "cust-099",
+    "customerName": "Amanda White",
+    "timestamp": "2025-10-28T11:33:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-007",
+    "type": "call",
+    "description": "제품 데모 통화",
+    "user": "Michael Brown",
+    "customerId": "cust-008",
+    "customerName": "임채원",
+    "timestamp": "2025-10-26T17:42:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-061",
+    "type": "task",
+    "description": "데이터 마이그레이션",
+    "user": "정도윤",
+    "customerId": "cust-062",
+    "customerName": "박지훈",
+    "timestamp": "2025-10-24T16:36:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-182",
+    "type": "email",
+    "description": "제안서 이메일 발송",
+    "user": "김민준",
+    "customerId": "cust-183",
+    "customerName": "최수아",
+    "timestamp": "2025-10-20T18:53:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-199",
+    "type": "meeting",
+    "description": "제품 데모 세션",
+    "user": "이서연",
+    "customerId": "cust-200",
+    "customerName": "류지아",
+    "timestamp": "2025-10-20T14:36:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-188",
+    "type": "email",
+    "description": "팔로업 이메일 전송",
+    "user": "최수아",
+    "customerId": "cust-189",
+    "customerName": "한소율",
+    "timestamp": "2025-10-19T18:11:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-174",
+    "type": "task",
+    "description": "설정 완료",
+    "user": "최수아",
+    "customerId": "cust-175",
+    "customerName": "Patricia Green",
+    "timestamp": "2025-10-18T10:34:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-086",
+    "type": "meeting",
+    "description": "온보딩 미팅",
+    "user": "Sarah Johnson",
+    "customerId": "cust-087",
+    "customerName": "태민석",
+    "timestamp": "2025-10-17T13:39:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-125",
+    "type": "note",
+    "description": "특이사항 메모",
+    "user": "정도윤",
+    "customerId": "cust-126",
+    "customerName": "조현우",
+    "timestamp": "2025-10-15T17:03:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-087",
+    "type": "note",
+    "description": "통화 내용 기록",
+    "user": "Sarah Johnson",
+    "customerId": "cust-088",
+    "customerName": "안지혜",
+    "timestamp": "2025-10-10T20:35:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-053",
+    "type": "task",
+    "description": "계약서 검토",
+    "user": "김민준",
+    "customerId": "cust-054",
+    "customerName": "George Wright",
+    "timestamp": "2025-10-10T12:34:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-190",
+    "type": "call",
+    "description": "영업 전화 진행",
+    "user": "박지훈",
+    "customerId": "cust-191",
+    "customerName": "신예린",
+    "timestamp": "2025-10-09T14:32:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-149",
+    "type": "task",
+    "description": "계약서 검토",
+    "user": "김민준",
+    "customerId": "cust-150",
+    "customerName": "James Wilson",
+    "timestamp": "2025-10-08T13:12:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-160",
+    "type": "meeting",
+    "description": "협상 미팅",
+    "user": "이서연",
+    "customerId": "cust-161",
+    "customerName": "Jennifer Garcia",
+    "timestamp": "2025-10-06T15:11:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-142",
+    "type": "meeting",
+    "description": "협상 미팅",
+    "user": "Michael Brown",
+    "customerId": "cust-143",
+    "customerName": "황보름",
+    "timestamp": "2025-10-04T12:35:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-030",
+    "type": "note",
+    "description": "고객 피드백 메모",
+    "user": "최수아",
+    "customerId": "cust-031",
+    "customerName": "Sarah Johnson",
+    "timestamp": "2025-10-03T19:56:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-147",
+    "type": "meeting",
+    "description": "제품 데모 세션",
+    "user": "Michael Brown",
+    "customerId": "cust-148",
+    "customerName": "안지혜",
+    "timestamp": "2025-10-01T08:44:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-146",
+    "type": "meeting",
+    "description": "킥오프 미팅 완료",
+    "user": "김민준",
+    "customerId": "cust-147",
+    "customerName": "태민석",
+    "timestamp": "2025-09-25T20:54:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-076",
+    "type": "call",
+    "description": "고객 통화 완료",
+    "user": "최수아",
+    "customerId": "cust-077",
+    "customerName": "엄수빈",
+    "timestamp": "2025-09-25T16:43:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-021",
+    "type": "task",
+    "description": "계약서 검토",
+    "user": "박지훈",
+    "customerId": "cust-022",
+    "customerName": "남궁민",
+    "timestamp": "2025-09-24T09:50:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-084",
+    "type": "task",
+    "description": "트레이닝 세션",
+    "user": "이서연",
+    "customerId": "cust-085",
+    "customerName": "천지원",
+    "timestamp": "2025-09-24T08:24:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-059",
+    "type": "email",
+    "description": "제안서 이메일 발송",
+    "user": "최수아",
+    "customerId": "cust-060",
+    "customerName": "김민준",
+    "timestamp": "2025-09-23T20:23:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-195",
+    "type": "meeting",
+    "description": "온보딩 미팅",
+    "user": "김민준",
+    "customerId": "cust-196",
+    "customerName": "노준혁",
+    "timestamp": "2025-09-23T10:56:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-027",
+    "type": "call",
+    "description": "팔로업 전화",
+    "user": "James Wilson",
+    "customerId": "cust-028",
+    "customerName": "안지혜",
+    "timestamp": "2025-09-21T20:32:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-012",
+    "type": "task",
+    "description": "설정 완료",
+    "user": "최수아",
+    "customerId": "cust-013",
+    "customerName": "문지민",
+    "timestamp": "2025-09-19T20:50:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-006",
+    "type": "meeting",
+    "description": "분기 리뷰 미팅",
+    "user": "박지훈",
+    "customerId": "cust-007",
+    "customerName": "윤지우",
+    "timestamp": "2025-09-15T16:44:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-116",
+    "type": "note",
+    "description": "다음 액션 아이템",
+    "user": "김민준",
+    "customerId": "cust-117",
+    "customerName": "Sandra Adams",
+    "timestamp": "2025-09-15T13:25:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-169",
+    "type": "call",
+    "description": "영업 전화 진행",
+    "user": "박지훈",
+    "customerId": "cust-170",
+    "customerName": "Kevin Moore",
+    "timestamp": "2025-09-13T09:43:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-082",
+    "type": "note",
+    "description": "통화 내용 기록",
+    "user": "정도윤",
+    "customerId": "cust-083",
+    "customerName": "황보름",
+    "timestamp": "2025-09-02T20:14:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-108",
+    "type": "call",
+    "description": "팔로업 전화",
+    "user": "박지훈",
+    "customerId": "cust-109",
+    "customerName": "Karen Young",
+    "timestamp": "2025-09-01T13:22:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-163",
+    "type": "call",
+    "description": "팔로업 전화",
+    "user": "최수아",
+    "customerId": "cust-164",
+    "customerName": "Andrew Clark",
+    "timestamp": "2025-08-31T14:43:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-037",
+    "type": "note",
+    "description": "요구사항 정리",
+    "user": "김민준",
+    "customerId": "cust-038",
+    "customerName": "Christopher Jackson",
+    "timestamp": "2025-08-31T10:34:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-031",
+    "type": "call",
+    "description": "영업 전화 진행",
+    "user": "김민준",
+    "customerId": "cust-032",
+    "customerName": "Michael Brown",
+    "timestamp": "2025-08-24T19:21:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-121",
+    "type": "meeting",
+    "description": "협상 미팅",
+    "user": "정도윤",
+    "customerId": "cust-122",
+    "customerName": "박지훈",
+    "timestamp": "2025-08-19T10:36:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-134",
+    "type": "task",
+    "description": "설정 완료",
+    "user": "정도윤",
+    "customerId": "cust-135",
+    "customerName": "백다은",
+    "timestamp": "2025-08-16T20:55:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-120",
+    "type": "meeting",
+    "description": "분기 리뷰 미팅",
+    "user": "Michael Brown",
+    "customerId": "cust-121",
+    "customerName": "이서연",
+    "timestamp": "2025-08-06T11:26:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-124",
+    "type": "note",
+    "description": "고객 피드백 메모",
+    "user": "박지훈",
+    "customerId": "cust-125",
+    "customerName": "강민서",
+    "timestamp": "2025-08-04T15:08:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-013",
+    "type": "call",
+    "description": "문의 응대",
+    "user": "Sarah Johnson",
+    "customerId": "cust-014",
+    "customerName": "양태양",
+    "timestamp": "2025-08-02T20:43:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-135",
+    "type": "task",
+    "description": "트레이닝 세션",
+    "user": "Michael Brown",
+    "customerId": "cust-136",
+    "customerName": "노준혁",
+    "timestamp": "2025-07-31T10:11:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-033",
+    "type": "task",
+    "description": "계약서 검토",
+    "user": "정도윤",
+    "customerId": "cust-034",
+    "customerName": "Robert Taylor",
+    "timestamp": "2025-07-28T14:28:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-055",
+    "type": "email",
+    "description": "계약서 이메일",
+    "user": "이서연",
+    "customerId": "cust-056",
+    "customerName": "Edward Baker",
+    "timestamp": "2025-07-23T13:32:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-194",
+    "type": "meeting",
+    "description": "협상 미팅",
+    "user": "Michael Brown",
+    "customerId": "cust-195",
+    "customerName": "백다은",
+    "timestamp": "2025-07-23T08:46:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-167",
+    "type": "email",
+    "description": "뉴스레터 발송",
+    "user": "이서연",
+    "customerId": "cust-168",
+    "customerName": "Ryan Allen",
+    "timestamp": "2025-07-22T20:15:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-034",
+    "type": "note",
+    "description": "특이사항 메모",
+    "user": "김민준",
+    "customerId": "cust-035",
+    "customerName": "Jessica Martinez",
+    "timestamp": "2025-07-19T18:07:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-193",
+    "type": "task",
+    "description": "트레이닝 세션",
+    "user": "최수아",
+    "customerId": "cust-194",
+    "customerName": "양태양",
+    "timestamp": "2025-07-12T20:35:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-113",
+    "type": "task",
+    "description": "제안서 작성 완료",
+    "user": "Michael Brown",
+    "customerId": "cust-114",
+    "customerName": "George Wright",
+    "timestamp": "2025-07-10T17:20:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-198",
+    "type": "email",
+    "description": "팔로업 이메일 전송",
+    "user": "정도윤",
+    "customerId": "cust-199",
+    "customerName": "방소연",
+    "timestamp": "2025-07-07T17:15:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-145",
+    "type": "call",
+    "description": "문의 응대",
+    "user": "정도윤",
+    "customerId": "cust-146",
+    "customerName": "마재윤",
+    "timestamp": "2025-07-07T14:16:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-127",
+    "type": "note",
+    "description": "특이사항 메모",
+    "user": "정도윤",
+    "customerId": "cust-128",
+    "customerName": "임채원",
+    "timestamp": "2025-07-04T13:35:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-049",
+    "type": "note",
+    "description": "요구사항 정리",
+    "user": "Michael Brown",
+    "customerId": "cust-050",
+    "customerName": "Kevin Moore",
+    "timestamp": "2025-07-03T20:19:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-011",
+    "type": "meeting",
+    "description": "분기 리뷰 미팅",
+    "user": "김민준",
+    "customerId": "cust-012",
+    "customerName": "홍승현",
+    "timestamp": "2025-07-03T15:06:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-106",
+    "type": "email",
+    "description": "뉴스레터 발송",
+    "user": "Sarah Johnson",
+    "customerId": "cust-107",
+    "customerName": "Susan Hall",
+    "timestamp": "2025-06-30T16:34:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-191",
+    "type": "email",
+    "description": "미팅 확인 이메일",
+    "user": "Michael Brown",
+    "customerId": "cust-192",
+    "customerName": "홍승현",
+    "timestamp": "2025-06-30T13:35:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-081",
+    "type": "email",
+    "description": "계약서 이메일",
+    "user": "Sarah Johnson",
+    "customerId": "cust-082",
+    "customerName": "남궁민",
+    "timestamp": "2025-06-29T17:51:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-144",
+    "type": "task",
+    "description": "트레이닝 세션",
+    "user": "정도윤",
+    "customerId": "cust-145",
+    "customerName": "천지원",
+    "timestamp": "2025-06-27T15:34:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-102",
+    "type": "task",
+    "description": "제안서 작성 완료",
+    "user": "정도윤",
+    "customerId": "cust-103",
+    "customerName": "Linda Robinson",
+    "timestamp": "2025-06-24T09:51:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-044",
+    "type": "call",
+    "description": "영업 전화 진행",
+    "user": "Michael Brown",
+    "customerId": "cust-045",
+    "customerName": "Barbara Lewis",
+    "timestamp": "2025-06-19T13:08:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-118",
+    "type": "email",
+    "description": "계약서 이메일",
+    "user": "이서연",
+    "customerId": "cust-119",
+    "customerName": "Carol Carter",
+    "timestamp": "2025-06-16T13:39:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-178",
+    "type": "task",
+    "description": "데이터 마이그레이션",
+    "user": "최수아",
+    "customerId": "cust-179",
+    "customerName": "Carol Carter",
+    "timestamp": "2025-06-14T19:04:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-171",
+    "type": "email",
+    "description": "계약서 이메일",
+    "user": "최수아",
+    "customerId": "cust-172",
+    "customerName": "Brian Scott",
+    "timestamp": "2025-06-12T16:50:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-117",
+    "type": "note",
+    "description": "고객 피드백 메모",
+    "user": "Michael Brown",
+    "customerId": "cust-118",
+    "customerName": "Timothy Nelson",
+    "timestamp": "2025-06-11T19:00:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-040",
+    "type": "task",
+    "description": "트레이닝 세션",
+    "user": "이서연",
+    "customerId": "cust-041",
+    "customerName": "Jennifer Garcia",
+    "timestamp": "2025-06-06T11:47:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-176",
+    "type": "task",
+    "description": "계약서 검토",
+    "user": "Michael Brown",
+    "customerId": "cust-177",
+    "customerName": "Sandra Adams",
+    "timestamp": "2025-06-01T12:34:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-003",
+    "type": "meeting",
+    "description": "협상 미팅",
+    "user": "James Wilson",
+    "customerId": "cust-004",
+    "customerName": "정도윤",
+    "timestamp": "2025-05-31T15:51:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-023",
+    "type": "meeting",
+    "description": "제품 데모 세션",
+    "user": "James Wilson",
+    "customerId": "cust-024",
+    "customerName": "전예솔",
+    "timestamp": "2025-05-31T11:48:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-043",
+    "type": "task",
+    "description": "설정 완료",
+    "user": "이서연",
+    "customerId": "cust-044",
+    "customerName": "Andrew Clark",
+    "timestamp": "2025-05-29T18:04:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-152",
+    "type": "task",
+    "description": "트레이닝 세션",
+    "user": "정도윤",
+    "customerId": "cust-153",
+    "customerName": "Emily Davis",
+    "timestamp": "2025-05-26T18:47:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-036",
+    "type": "meeting",
+    "description": "제품 데모 세션",
+    "user": "이서연",
+    "customerId": "cust-037",
+    "customerName": "Ashley Thomas",
+    "timestamp": "2025-05-25T20:59:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-017",
+    "type": "note",
+    "description": "고객 피드백 메모",
+    "user": "Sarah Johnson",
+    "customerId": "cust-018",
+    "customerName": "권민재",
+    "timestamp": "2025-05-23T16:16:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-154",
+    "type": "note",
+    "description": "다음 액션 아이템",
+    "user": "Michael Brown",
+    "customerId": "cust-155",
+    "customerName": "Jessica Martinez",
+    "timestamp": "2025-05-20T19:39:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-156",
+    "type": "email",
+    "description": "제안서 이메일 발송",
+    "user": "정도윤",
+    "customerId": "cust-157",
+    "customerName": "Ashley Thomas",
+    "timestamp": "2025-05-18T10:45:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-051",
+    "type": "email",
+    "description": "미팅 확인 이메일",
+    "user": "최수아",
+    "customerId": "cust-052",
+    "customerName": "Brian Scott",
+    "timestamp": "2025-05-15T19:56:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-026",
+    "type": "note",
+    "description": "고객 피드백 메모",
+    "user": "Sarah Johnson",
+    "customerId": "cust-027",
+    "customerName": "태민석",
+    "timestamp": "2025-05-12T16:46:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-083",
+    "type": "meeting",
+    "description": "온보딩 미팅",
+    "user": "Sarah Johnson",
+    "customerId": "cust-084",
+    "customerName": "전예솔",
+    "timestamp": "2025-05-12T11:00:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-088",
+    "type": "email",
+    "description": "뉴스레터 발송",
+    "user": "Michael Brown",
+    "customerId": "cust-089",
+    "customerName": "우서준",
+    "timestamp": "2025-05-10T12:36:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-111",
+    "type": "email",
+    "description": "팔로업 이메일 전송",
+    "user": "최수아",
+    "customerId": "cust-112",
+    "customerName": "Brian Scott",
+    "timestamp": "2025-05-08T17:22:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-150",
+    "type": "task",
+    "description": "설정 완료",
+    "user": "Sarah Johnson",
+    "customerId": "cust-151",
+    "customerName": "Sarah Johnson",
+    "timestamp": "2025-05-08T10:45:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-119",
+    "type": "email",
+    "description": "미팅 확인 이메일",
+    "user": "정도윤",
+    "customerId": "cust-120",
+    "customerName": "김민준",
+    "timestamp": "2025-05-02T12:30:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-058",
+    "type": "call",
+    "description": "영업 전화 진행",
+    "user": "Michael Brown",
+    "customerId": "cust-059",
+    "customerName": "Carol Carter",
+    "timestamp": "2025-04-29T09:16:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-075",
+    "type": "note",
+    "description": "다음 액션 아이템",
+    "user": "이서연",
+    "customerId": "cust-076",
+    "customerName": "노준혁",
+    "timestamp": "2025-04-28T14:24:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-054",
+    "type": "email",
+    "description": "뉴스레터 발송",
+    "user": "Sarah Johnson",
+    "customerId": "cust-055",
+    "customerName": "Patricia Green",
+    "timestamp": "2025-04-25T20:37:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-063",
+    "type": "task",
+    "description": "데이터 마이그레이션",
+    "user": "Sarah Johnson",
+    "customerId": "cust-064",
+    "customerName": "정도윤",
+    "timestamp": "2025-04-25T16:25:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-126",
+    "type": "call",
+    "description": "영업 전화 진행",
+    "user": "김민준",
+    "customerId": "cust-127",
+    "customerName": "윤지우",
+    "timestamp": "2025-04-21T12:30:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-196",
+    "type": "call",
+    "description": "제품 데모 통화",
+    "user": "최수아",
+    "customerId": "cust-197",
+    "customerName": "엄수빈",
+    "timestamp": "2025-04-20T13:01:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-005",
+    "type": "task",
+    "description": "계약서 검토",
+    "user": "최수아",
+    "customerId": "cust-006",
+    "customerName": "조현우",
+    "timestamp": "2025-04-18T17:45:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-095",
+    "type": "note",
+    "description": "요구사항 정리",
+    "user": "김민준",
+    "customerId": "cust-096",
+    "customerName": "David Anderson",
+    "timestamp": "2025-04-14T18:59:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-165",
+    "type": "meeting",
+    "description": "협상 미팅",
+    "user": "정도윤",
+    "customerId": "cust-166",
+    "customerName": "Joshua Walker",
+    "timestamp": "2025-04-12T13:56:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-123",
+    "type": "task",
+    "description": "설정 완료",
+    "user": "Sarah Johnson",
+    "customerId": "cust-124",
+    "customerName": "정도윤",
+    "timestamp": "2025-04-11T10:51:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-045",
+    "type": "call",
+    "description": "제품 데모 통화",
+    "user": "이서연",
+    "customerId": "cust-046",
+    "customerName": "Joshua Walker",
+    "timestamp": "2025-04-10T13:31:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-016",
+    "type": "note",
+    "description": "통화 내용 기록",
+    "user": "이서연",
+    "customerId": "cust-017",
+    "customerName": "엄수빈",
+    "timestamp": "2025-04-06T10:47:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-114",
+    "type": "task",
+    "description": "데이터 마이그레이션",
+    "user": "Michael Brown",
+    "customerId": "cust-115",
+    "customerName": "Patricia Green",
+    "timestamp": "2025-04-04T20:58:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-153",
+    "type": "note",
+    "description": "통화 내용 기록",
+    "user": "이서연",
+    "customerId": "cust-154",
+    "customerName": "Robert Taylor",
+    "timestamp": "2025-04-04T10:18:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-032",
+    "type": "call",
+    "description": "고객 통화 완료",
+    "user": "김민준",
+    "customerId": "cust-033",
+    "customerName": "Emily Davis",
+    "timestamp": "2025-04-02T20:16:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-077",
+    "type": "email",
+    "description": "미팅 확인 이메일",
+    "user": "이서연",
+    "customerId": "cust-078",
+    "customerName": "권민재",
+    "timestamp": "2025-04-01T15:57:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-101",
+    "type": "task",
+    "description": "제안서 작성 완료",
+    "user": "정도윤",
+    "customerId": "cust-102",
+    "customerName": "Daniel Martinez",
+    "timestamp": "2025-03-31T14:32:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-200",
+    "type": "call",
+    "description": "제품 데모 통화",
+    "user": "Michael Brown",
+    "customerId": "cust-001",
+    "customerName": "이서연",
+    "timestamp": "2025-03-30T15:52:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-074",
+    "type": "task",
+    "description": "트레이닝 세션",
+    "user": "정도윤",
+    "customerId": "cust-075",
+    "customerName": "백다은",
+    "timestamp": "2025-03-27T19:43:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-070",
+    "type": "task",
+    "description": "계약서 검토",
+    "user": "김민준",
+    "customerId": "cust-071",
+    "customerName": "신예린",
+    "timestamp": "2025-03-27T12:59:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-041",
+    "type": "email",
+    "description": "계약서 이메일",
+    "user": "박지훈",
+    "customerId": "cust-042",
+    "customerName": "Daniel Martinez",
+    "timestamp": "2025-03-24T10:14:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-066",
+    "type": "email",
+    "description": "팔로업 이메일 전송",
+    "user": "박지훈",
+    "customerId": "cust-067",
+    "customerName": "윤지우",
+    "timestamp": "2025-03-22T13:38:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-097",
+    "type": "meeting",
+    "description": "분기 리뷰 미팅",
+    "user": "김민준",
+    "customerId": "cust-098",
+    "customerName": "Christopher Jackson",
+    "timestamp": "2025-03-22T09:17:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-155",
+    "type": "email",
+    "description": "뉴스레터 발송",
+    "user": "김민준",
+    "customerId": "cust-156",
+    "customerName": "David Anderson",
+    "timestamp": "2025-03-19T08:34:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-157",
+    "type": "call",
+    "description": "영업 전화 진행",
+    "user": "이서연",
+    "customerId": "cust-158",
+    "customerName": "Christopher Jackson",
+    "timestamp": "2025-03-19T08:31:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-048",
+    "type": "note",
+    "description": "특이사항 메모",
+    "user": "James Wilson",
+    "customerId": "cust-049",
+    "customerName": "Karen Young",
+    "timestamp": "2025-03-10T18:46:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-069",
+    "type": "call",
+    "description": "영업 전화 진행",
+    "user": "박지훈",
+    "customerId": "cust-070",
+    "customerName": "오세준",
+    "timestamp": "2025-03-10T18:32:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-039",
+    "type": "call",
+    "description": "팔로업 전화",
+    "user": "박지훈",
+    "customerId": "cust-040",
+    "customerName": "Matthew Harris",
+    "timestamp": "2025-03-05T08:00:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-161",
+    "type": "meeting",
+    "description": "협상 미팅",
+    "user": "김민준",
+    "customerId": "cust-162",
+    "customerName": "Daniel Martinez",
+    "timestamp": "2025-03-04T20:45:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-128",
+    "type": "meeting",
+    "description": "킥오프 미팅 완료",
+    "user": "Sarah Johnson",
+    "customerId": "cust-129",
+    "customerName": "한소율",
+    "timestamp": "2025-03-04T13:55:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-180",
+    "type": "meeting",
+    "description": "협상 미팅",
+    "user": "James Wilson",
+    "customerId": "cust-181",
+    "customerName": "이서연",
+    "timestamp": "2025-02-26T09:33:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-085",
+    "type": "meeting",
+    "description": "협상 미팅",
+    "user": "James Wilson",
+    "customerId": "cust-086",
+    "customerName": "마재윤",
+    "timestamp": "2025-02-24T10:27:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-137",
+    "type": "email",
+    "description": "팔로업 이메일 전송",
+    "user": "Sarah Johnson",
+    "customerId": "cust-138",
+    "customerName": "권민재",
+    "timestamp": "2025-02-22T09:04:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-187",
+    "type": "call",
+    "description": "영업 전화 진행",
+    "user": "이서연",
+    "customerId": "cust-188",
+    "customerName": "임채원",
+    "timestamp": "2025-02-21T19:14:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-197",
+    "type": "task",
+    "description": "트레이닝 세션",
+    "user": "박지훈",
+    "customerId": "cust-198",
+    "customerName": "권민재",
+    "timestamp": "2025-02-18T08:29:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-078",
+    "type": "task",
+    "description": "트레이닝 세션",
+    "user": "이서연",
+    "customerId": "cust-079",
+    "customerName": "방소연",
+    "timestamp": "2025-02-17T15:42:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-107",
+    "type": "meeting",
+    "description": "분기 리뷰 미팅",
+    "user": "정도윤",
+    "customerId": "cust-108",
+    "customerName": "Ryan Allen",
+    "timestamp": "2025-02-17T14:43:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-022",
+    "type": "note",
+    "description": "다음 액션 아이템",
+    "user": "Sarah Johnson",
+    "customerId": "cust-023",
+    "customerName": "황보름",
+    "timestamp": "2025-02-17T13:14:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-092",
+    "type": "note",
+    "description": "다음 액션 아이템",
+    "user": "Sarah Johnson",
+    "customerId": "cust-093",
+    "customerName": "Emily Davis",
+    "timestamp": "2025-02-15T09:16:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-139",
+    "type": "call",
+    "description": "제품 데모 통화",
+    "user": "박지훈",
+    "customerId": "cust-140",
+    "customerName": "류지아",
+    "timestamp": "2025-02-13T18:59:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-159",
+    "type": "note",
+    "description": "고객 피드백 메모",
+    "user": "James Wilson",
+    "customerId": "cust-160",
+    "customerName": "Matthew Harris",
+    "timestamp": "2025-02-11T20:09:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-184",
+    "type": "call",
+    "description": "영업 전화 진행",
+    "user": "Michael Brown",
+    "customerId": "cust-185",
+    "customerName": "강민서",
+    "timestamp": "2025-02-10T15:51:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-151",
+    "type": "note",
+    "description": "통화 내용 기록",
+    "user": "정도윤",
+    "customerId": "cust-152",
+    "customerName": "Michael Brown",
+    "timestamp": "2025-02-10T14:40:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-130",
+    "type": "task",
+    "description": "설정 완료",
+    "user": "Michael Brown",
+    "customerId": "cust-131",
+    "customerName": "신예린",
+    "timestamp": "2025-02-10T14:39:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-065",
+    "type": "note",
+    "description": "통화 내용 기록",
+    "user": "최수아",
+    "customerId": "cust-066",
+    "customerName": "조현우",
+    "timestamp": "2025-02-09T16:41:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-020",
+    "type": "note",
+    "description": "다음 액션 아이템",
+    "user": "James Wilson",
+    "customerId": "cust-021",
+    "customerName": "서현진",
+    "timestamp": "2025-02-07T20:45:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-132",
+    "type": "note",
+    "description": "다음 액션 아이템",
+    "user": "Sarah Johnson",
+    "customerId": "cust-133",
+    "customerName": "문지민",
+    "timestamp": "2025-02-06T09:10:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-105",
+    "type": "note",
+    "description": "고객 피드백 메모",
+    "user": "정도윤",
+    "customerId": "cust-106",
+    "customerName": "Joshua Walker",
+    "timestamp": "2025-02-04T14:40:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-009",
+    "type": "call",
+    "description": "문의 응대",
+    "user": "박지훈",
+    "customerId": "cust-010",
+    "customerName": "오세준",
+    "timestamp": "2025-01-28T18:03:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-115",
+    "type": "note",
+    "description": "통화 내용 기록",
+    "user": "박지훈",
+    "customerId": "cust-116",
+    "customerName": "Edward Baker",
+    "timestamp": "2025-01-28T16:51:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-183",
+    "type": "note",
+    "description": "다음 액션 아이템",
+    "user": "정도윤",
+    "customerId": "cust-184",
+    "customerName": "정도윤",
+    "timestamp": "2025-01-26T13:14:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-080",
+    "type": "task",
+    "description": "설정 완료",
+    "user": "James Wilson",
+    "customerId": "cust-081",
+    "customerName": "서현진",
+    "timestamp": "2025-01-23T19:33:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-025",
+    "type": "task",
+    "description": "트레이닝 세션",
+    "user": "최수아",
+    "customerId": "cust-026",
+    "customerName": "마재윤",
+    "timestamp": "2025-01-21T18:56:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-060",
+    "type": "note",
+    "description": "요구사항 정리",
+    "user": "김민준",
+    "customerId": "cust-061",
+    "customerName": "이서연",
+    "timestamp": "2025-01-21T18:20:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-181",
+    "type": "call",
+    "description": "영업 전화 진행",
+    "user": "박지훈",
+    "customerId": "cust-182",
+    "customerName": "박지훈",
+    "timestamp": "2025-01-17T11:06:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-141",
+    "type": "email",
+    "description": "미팅 확인 이메일",
+    "user": "박지훈",
+    "customerId": "cust-142",
+    "customerName": "남궁민",
+    "timestamp": "2025-01-15T08:42:00",
+    "hasNotification": false
+  },
+  {
+    "id": "act-018",
+    "type": "email",
+    "description": "미팅 확인 이메일",
+    "user": "정도윤",
+    "customerId": "cust-019",
+    "customerName": "방소연",
+    "timestamp": "2025-01-03T13:29:00",
+    "hasNotification": true
+  },
+  {
+    "id": "act-047",
+    "type": "meeting",
+    "description": "협상 미팅",
+    "user": "박지훈",
+    "customerId": "cust-048",
+    "customerName": "Ryan Allen",
+    "timestamp": "2025-01-03T13:15:00",
+    "hasNotification": true
+  }
+]

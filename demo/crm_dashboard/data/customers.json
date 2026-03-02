@@ -1,0 +1,3225 @@
+[
+  {
+    "id": "cust-001",
+    "name": "이서연",
+    "email": "leeseo연95@kakao.com",
+    "company": "삼성전자",
+    "status": "active",
+    "revenue": 74158,
+    "joinDate": "2021-02-23",
+    "country": "KR",
+    "phone": "010-9935-2424",
+    "hasNotification": false,
+    "tags": [
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-002",
+    "name": "박지훈",
+    "email": "park지훈30@company.io",
+    "company": "NextGen",
+    "status": "inactive",
+    "revenue": 295254,
+    "joinDate": "2022-03-25",
+    "country": "US",
+    "phone": "+1-933-865-9928",
+    "hasNotification": false,
+    "tags": [
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-003",
+    "name": "최수아",
+    "email": "choi수아1@work.net",
+    "company": "GreenPower",
+    "status": "prospect",
+    "revenue": 367026,
+    "joinDate": "2024-09-27",
+    "country": "AU",
+    "phone": "+73-384-3547",
+    "hasNotification": true,
+    "tags": [
+      "VIP",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-004",
+    "name": "정도윤",
+    "email": "jung도yoon46@work.net",
+    "company": "Beta Inc",
+    "status": "active",
+    "revenue": 139685,
+    "joinDate": "2020-06-26",
+    "country": "KR",
+    "phone": "010-8527-9785",
+    "hasNotification": true,
+    "tags": [
+      "VIP",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-005",
+    "name": "강민서",
+    "email": "kang민seo25@tech.co",
+    "company": "ZetaSoft",
+    "status": "active",
+    "revenue": 347692,
+    "joinDate": "2022-07-22",
+    "country": "DE",
+    "phone": "+67-181-4814",
+    "hasNotification": true,
+    "tags": [
+      "SMB",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-006",
+    "name": "조현우",
+    "email": "cho현woo48@kakao.com",
+    "company": "ZetaSoft",
+    "status": "active",
+    "revenue": 140973,
+    "joinDate": "2020-10-19",
+    "country": "US",
+    "phone": "+1-823-850-3803",
+    "hasNotification": true,
+    "tags": [
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-007",
+    "name": "윤지우",
+    "email": "yoon지woo82@tech.co",
+    "company": "Beta Inc",
+    "status": "inactive",
+    "revenue": 359935,
+    "joinDate": "2023-08-21",
+    "country": "JP",
+    "phone": "+81-10-4752-1525",
+    "hasNotification": false,
+    "tags": [
+      "SMB",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-008",
+    "name": "임채원",
+    "email": "lim채원92@kakao.com",
+    "company": "InnoTech",
+    "status": "active",
+    "revenue": 262740,
+    "joinDate": "2024-06-08",
+    "country": "DE",
+    "phone": "+88-246-5339",
+    "hasNotification": true,
+    "tags": [
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-009",
+    "name": "한소율",
+    "email": "han소율96@company.io",
+    "company": "Smilegate",
+    "status": "active",
+    "revenue": 306939,
+    "joinDate": "2024-06-23",
+    "country": "JP",
+    "phone": "+81-49-4593-3266",
+    "hasNotification": false,
+    "tags": [
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-010",
+    "name": "오세준",
+    "email": "oh세준81@naver.com",
+    "company": "삼성전자",
+    "status": "prospect",
+    "revenue": 222333,
+    "joinDate": "2020-09-17",
+    "country": "US",
+    "phone": "+1-594-590-8668",
+    "hasNotification": false,
+    "tags": [
+      "VIP",
+      "Partner",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-011",
+    "name": "신예린",
+    "email": "shin예린35@work.net",
+    "company": "Smilegate",
+    "status": "inactive",
+    "revenue": 59485,
+    "joinDate": "2023-04-17",
+    "country": "AU",
+    "phone": "+85-261-8433",
+    "hasNotification": true,
+    "tags": [
+      "SMB",
+      "Enterprise",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-012",
+    "name": "홍승현",
+    "email": "hong승현81@kakao.com",
+    "company": "DigitalPro",
+    "status": "prospect",
+    "revenue": 267161,
+    "joinDate": "2022-03-25",
+    "country": "AU",
+    "phone": "+49-482-3646",
+    "hasNotification": true,
+    "tags": [
+      "SMB",
+      "Startup",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-013",
+    "name": "문지민",
+    "email": "moon지민40@naver.com",
+    "company": "삼성전자",
+    "status": "active",
+    "revenue": 461329,
+    "joinDate": "2020-11-18",
+    "country": "JP",
+    "phone": "+81-13-8962-2133",
+    "hasNotification": true,
+    "tags": [
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-014",
+    "name": "양태양",
+    "email": "yangtaeyang34@company.io",
+    "company": "NCsoft",
+    "status": "prospect",
+    "revenue": 222846,
+    "joinDate": "2022-05-17",
+    "country": "US",
+    "phone": "+1-752-973-4295",
+    "hasNotification": false,
+    "tags": [
+      "SMB",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-015",
+    "name": "백다은",
+    "email": "baek다은16@naver.com",
+    "company": "Krafton",
+    "status": "active",
+    "revenue": 178254,
+    "joinDate": "2020-03-27",
+    "country": "GB",
+    "phone": "+59-702-4608",
+    "hasNotification": true,
+    "tags": [
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-016",
+    "name": "노준혁",
+    "email": "no준혁5@work.net",
+    "company": "AcmeCo",
+    "status": "active",
+    "revenue": 270565,
+    "joinDate": "2022-09-01",
+    "country": "KR",
+    "phone": "010-5562-8953",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "Startup",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-017",
+    "name": "엄수빈",
+    "email": "um수빈53@naver.com",
+    "company": "KT Corp",
+    "status": "active",
+    "revenue": 346496,
+    "joinDate": "2024-10-31",
+    "country": "AU",
+    "phone": "+75-533-7735",
+    "hasNotification": false,
+    "tags": [
+      "VIP",
+      "Partner",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-018",
+    "name": "권민재",
+    "email": "kwon민재44@work.net",
+    "company": "현대자동차",
+    "status": "prospect",
+    "revenue": 131367,
+    "joinDate": "2022-02-23",
+    "country": "CN",
+    "phone": "+54-649-8350",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-019",
+    "name": "방소연",
+    "email": "bang소연10@outlook.com",
+    "company": "POSCO",
+    "status": "prospect",
+    "revenue": 449773,
+    "joinDate": "2021-02-05",
+    "country": "US",
+    "phone": "+1-251-867-9856",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-020",
+    "name": "류지아",
+    "email": "ryu지아63@outlook.com",
+    "company": "Naver Corp",
+    "status": "active",
+    "revenue": 211260,
+    "joinDate": "2020-08-28",
+    "country": "GB",
+    "phone": "+51-488-1035",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-021",
+    "name": "서현진",
+    "email": "seo현진94@work.net",
+    "company": "두산중공업",
+    "status": "inactive",
+    "revenue": 377652,
+    "joinDate": "2025-06-16",
+    "country": "CN",
+    "phone": "+49-294-5861",
+    "hasNotification": true,
+    "tags": [
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-022",
+    "name": "남궁민",
+    "email": "nam궁민96@kakao.com",
+    "company": "Smilegate",
+    "status": "active",
+    "revenue": 307277,
+    "joinDate": "2025-05-06",
+    "country": "KR",
+    "phone": "010-9238-9701",
+    "hasNotification": true,
+    "tags": [
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-023",
+    "name": "황보름",
+    "email": "hwang보름24@gmail.com",
+    "company": "NextGen",
+    "status": "inactive",
+    "revenue": 355005,
+    "joinDate": "2022-08-21",
+    "country": "AU",
+    "phone": "+81-222-5033",
+    "hasNotification": true,
+    "tags": [
+      "VIP",
+      "Startup",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-024",
+    "name": "전예솔",
+    "email": "jun예솔34@naver.com",
+    "company": "Krafton",
+    "status": "prospect",
+    "revenue": 165722,
+    "joinDate": "2022-09-04",
+    "country": "JP",
+    "phone": "+81-36-7484-3144",
+    "hasNotification": false,
+    "tags": [
+      "SMB",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-025",
+    "name": "천지원",
+    "email": "chun지원80@company.io",
+    "company": "TechCorp",
+    "status": "churned",
+    "revenue": 39409,
+    "joinDate": "2022-05-23",
+    "country": "GB",
+    "phone": "+94-371-3170",
+    "hasNotification": false,
+    "tags": [
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-026",
+    "name": "마재윤",
+    "email": "ma재yoon21@outlook.com",
+    "company": "ZetaSoft",
+    "status": "prospect",
+    "revenue": 369857,
+    "joinDate": "2023-05-24",
+    "country": "JP",
+    "phone": "+81-81-9666-1128",
+    "hasNotification": false,
+    "tags": [
+      "VIP",
+      "Enterprise",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-027",
+    "name": "태민석",
+    "email": "tae민석96@company.io",
+    "company": "삼성전자",
+    "status": "active",
+    "revenue": 148721,
+    "joinDate": "2022-05-12",
+    "country": "KR",
+    "phone": "010-6617-4335",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "SMB",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-028",
+    "name": "안지혜",
+    "email": "an지혜55@work.net",
+    "company": "NextGen",
+    "status": "active",
+    "revenue": 2858,
+    "joinDate": "2023-09-28",
+    "country": "CN",
+    "phone": "+46-752-5291",
+    "hasNotification": true,
+    "tags": [
+      "Startup",
+      "Partner",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-029",
+    "name": "우서준",
+    "email": "wooseo준10@tech.co",
+    "company": "TechCorp",
+    "status": "churned",
+    "revenue": 287046,
+    "joinDate": "2020-05-27",
+    "country": "KR",
+    "phone": "010-7049-3426",
+    "hasNotification": false,
+    "tags": [
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-030",
+    "name": "James Wilson",
+    "email": "james.wilson6@kakao.com",
+    "company": "FastCo",
+    "status": "active",
+    "revenue": 131825,
+    "joinDate": "2021-02-25",
+    "country": "JP",
+    "phone": "+81-48-7658-3532",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-031",
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson23@tech.co",
+    "company": "Coupang",
+    "status": "churned",
+    "revenue": 411195,
+    "joinDate": "2024-08-13",
+    "country": "KR",
+    "phone": "010-5065-5371",
+    "hasNotification": true,
+    "tags": [
+      "VIP",
+      "Startup",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-032",
+    "name": "Michael Brown",
+    "email": "michael.brown26@work.net",
+    "company": "KT Corp",
+    "status": "churned",
+    "revenue": 184321,
+    "joinDate": "2023-06-04",
+    "country": "US",
+    "phone": "+1-433-428-1387",
+    "hasNotification": true,
+    "tags": [
+      "SMB",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-033",
+    "name": "Emily Davis",
+    "email": "emily.davis36@kakao.com",
+    "company": "SmartBiz",
+    "status": "inactive",
+    "revenue": 210546,
+    "joinDate": "2023-09-18",
+    "country": "AU",
+    "phone": "+33-218-5279",
+    "hasNotification": true,
+    "tags": [
+      "SMB",
+      "VIP",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-034",
+    "name": "Robert Taylor",
+    "email": "robert.taylor94@work.net",
+    "company": "두산중공업",
+    "status": "active",
+    "revenue": 318828,
+    "joinDate": "2025-09-25",
+    "country": "JP",
+    "phone": "+81-17-7311-4114",
+    "hasNotification": false,
+    "tags": [
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-035",
+    "name": "Jessica Martinez",
+    "email": "jessica.martinez69@tech.co",
+    "company": "TechCorp",
+    "status": "prospect",
+    "revenue": 389995,
+    "joinDate": "2022-03-18",
+    "country": "DE",
+    "phone": "+76-541-2146",
+    "hasNotification": false,
+    "tags": [
+      "SMB",
+      "VIP",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-036",
+    "name": "David Anderson",
+    "email": "david.anderson40@tech.co",
+    "company": "FastCo",
+    "status": "active",
+    "revenue": 211973,
+    "joinDate": "2023-04-26",
+    "country": "DE",
+    "phone": "+46-296-7888",
+    "hasNotification": false,
+    "tags": [
+      "Enterprise",
+      "SMB",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-037",
+    "name": "Ashley Thomas",
+    "email": "ashley.thomas1@kakao.com",
+    "company": "NCsoft",
+    "status": "active",
+    "revenue": 226385,
+    "joinDate": "2023-08-12",
+    "country": "AU",
+    "phone": "+89-552-8244",
+    "hasNotification": true,
+    "tags": [
+      "Startup",
+      "Enterprise",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-038",
+    "name": "Christopher Jackson",
+    "email": "christopher.jackson66@tech.co",
+    "company": "NextGen",
+    "status": "inactive",
+    "revenue": 176735,
+    "joinDate": "2021-01-17",
+    "country": "JP",
+    "phone": "+81-33-6085-4680",
+    "hasNotification": true,
+    "tags": [
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-039",
+    "name": "Amanda White",
+    "email": "amanda.white61@company.io",
+    "company": "DataSystems",
+    "status": "prospect",
+    "revenue": 39182,
+    "joinDate": "2025-02-08",
+    "country": "US",
+    "phone": "+1-624-844-4185",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-040",
+    "name": "Matthew Harris",
+    "email": "matthew.harris89@gmail.com",
+    "company": "SK하이닉스",
+    "status": "prospect",
+    "revenue": 452118,
+    "joinDate": "2021-03-12",
+    "country": "CN",
+    "phone": "+84-324-3881",
+    "hasNotification": false,
+    "tags": [
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-041",
+    "name": "Jennifer Garcia",
+    "email": "jennifer.garcia16@outlook.com",
+    "company": "SkyNet",
+    "status": "active",
+    "revenue": 244606,
+    "joinDate": "2025-12-15",
+    "country": "AU",
+    "phone": "+70-873-8251",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "Enterprise",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-042",
+    "name": "Daniel Martinez",
+    "email": "daniel.martinez34@work.net",
+    "company": "KT Corp",
+    "status": "active",
+    "revenue": 335318,
+    "joinDate": "2023-02-09",
+    "country": "GB",
+    "phone": "+96-596-4919",
+    "hasNotification": false,
+    "tags": [
+      "VIP",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-043",
+    "name": "Linda Robinson",
+    "email": "linda.robinson43@kakao.com",
+    "company": "SkyNet",
+    "status": "prospect",
+    "revenue": 43245,
+    "joinDate": "2021-07-20",
+    "country": "JP",
+    "phone": "+81-22-4788-7275",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "VIP",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-044",
+    "name": "Andrew Clark",
+    "email": "andrew.clark70@outlook.com",
+    "company": "Coupang",
+    "status": "active",
+    "revenue": 109440,
+    "joinDate": "2024-09-16",
+    "country": "JP",
+    "phone": "+81-52-1320-7232",
+    "hasNotification": false,
+    "tags": [
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-045",
+    "name": "Barbara Lewis",
+    "email": "barbara.lewis50@work.net",
+    "company": "FastCo",
+    "status": "prospect",
+    "revenue": 439162,
+    "joinDate": "2024-09-12",
+    "country": "AU",
+    "phone": "+98-865-9947",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-046",
+    "name": "Joshua Walker",
+    "email": "joshua.walker4@outlook.com",
+    "company": "두산중공업",
+    "status": "active",
+    "revenue": 357065,
+    "joinDate": "2024-07-14",
+    "country": "GB",
+    "phone": "+51-960-8657",
+    "hasNotification": true,
+    "tags": [
+      "Partner",
+      "VIP",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-047",
+    "name": "Susan Hall",
+    "email": "susan.hall83@outlook.com",
+    "company": "GlobalSolutions",
+    "status": "active",
+    "revenue": 243062,
+    "joinDate": "2022-01-14",
+    "country": "KR",
+    "phone": "010-1823-5262",
+    "hasNotification": false,
+    "tags": [
+      "Enterprise",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-048",
+    "name": "Ryan Allen",
+    "email": "ryan.allen98@outlook.com",
+    "company": "BrightFuture",
+    "status": "active",
+    "revenue": 499704,
+    "joinDate": "2024-09-22",
+    "country": "JP",
+    "phone": "+81-35-2341-8705",
+    "hasNotification": true,
+    "tags": [
+      "Partner",
+      "VIP",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-049",
+    "name": "Karen Young",
+    "email": "karen.young9@work.net",
+    "company": "AcmeCo",
+    "status": "churned",
+    "revenue": 22106,
+    "joinDate": "2020-05-07",
+    "country": "CN",
+    "phone": "+61-304-1333",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-050",
+    "name": "Kevin Moore",
+    "email": "kevin.moore15@company.io",
+    "company": "KT Corp",
+    "status": "churned",
+    "revenue": 244811,
+    "joinDate": "2022-11-15",
+    "country": "CN",
+    "phone": "+77-271-2876",
+    "hasNotification": true,
+    "tags": [
+      "VIP",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-051",
+    "name": "Nancy Lee",
+    "email": "nancy.lee87@outlook.com",
+    "company": "FastCo",
+    "status": "active",
+    "revenue": 375873,
+    "joinDate": "2022-03-23",
+    "country": "DE",
+    "phone": "+39-706-4978",
+    "hasNotification": true,
+    "tags": [
+      "SMB",
+      "VIP",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-052",
+    "name": "Brian Scott",
+    "email": "brian.scott69@outlook.com",
+    "company": "DataSystems",
+    "status": "prospect",
+    "revenue": 37153,
+    "joinDate": "2025-09-03",
+    "country": "JP",
+    "phone": "+81-85-6590-1207",
+    "hasNotification": false,
+    "tags": [
+      "VIP",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-053",
+    "name": "Donna King",
+    "email": "donna.king59@tech.co",
+    "company": "ZetaSoft",
+    "status": "active",
+    "revenue": 93346,
+    "joinDate": "2025-11-07",
+    "country": "CN",
+    "phone": "+64-730-9817",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-054",
+    "name": "George Wright",
+    "email": "george.wright32@work.net",
+    "company": "BrightFuture",
+    "status": "churned",
+    "revenue": 147238,
+    "joinDate": "2025-01-20",
+    "country": "AU",
+    "phone": "+61-868-8613",
+    "hasNotification": false,
+    "tags": [
+      "VIP",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-055",
+    "name": "Patricia Green",
+    "email": "patricia.green63@naver.com",
+    "company": "BrightFuture",
+    "status": "active",
+    "revenue": 136451,
+    "joinDate": "2023-10-26",
+    "country": "US",
+    "phone": "+1-486-810-5526",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "VIP",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-056",
+    "name": "Edward Baker",
+    "email": "edward.baker72@work.net",
+    "company": "Coupang",
+    "status": "active",
+    "revenue": 250609,
+    "joinDate": "2025-07-03",
+    "country": "GB",
+    "phone": "+87-911-1282",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-057",
+    "name": "Sandra Adams",
+    "email": "sandra.adams85@company.io",
+    "company": "SkyNet",
+    "status": "active",
+    "revenue": 291179,
+    "joinDate": "2025-12-14",
+    "country": "JP",
+    "phone": "+81-47-7971-6419",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "SMB",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-058",
+    "name": "Timothy Nelson",
+    "email": "timothy.nelson16@tech.co",
+    "company": "BlueOcean",
+    "status": "active",
+    "revenue": 63681,
+    "joinDate": "2022-01-28",
+    "country": "US",
+    "phone": "+1-396-421-8933",
+    "hasNotification": false,
+    "tags": [
+      "Partner",
+      "SMB",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-059",
+    "name": "Carol Carter",
+    "email": "carol.carter30@kakao.com",
+    "company": "Hyundai Motors",
+    "status": "active",
+    "revenue": 8417,
+    "joinDate": "2025-12-27",
+    "country": "JP",
+    "phone": "+81-19-5494-1745",
+    "hasNotification": true,
+    "tags": [
+      "SMB",
+      "Enterprise",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-060",
+    "name": "김민준",
+    "email": "kim민준2@company.io",
+    "company": "WooahanBros",
+    "status": "active",
+    "revenue": 251984,
+    "joinDate": "2024-12-09",
+    "country": "KR",
+    "phone": "010-6582-4020",
+    "hasNotification": true,
+    "tags": [
+      "Startup",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-061",
+    "name": "이서연",
+    "email": "leeseo연63@gmail.com",
+    "company": "SmartBiz",
+    "status": "inactive",
+    "revenue": 360898,
+    "joinDate": "2020-08-07",
+    "country": "GB",
+    "phone": "+49-252-5978",
+    "hasNotification": true,
+    "tags": [
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-062",
+    "name": "박지훈",
+    "email": "park지훈54@company.io",
+    "company": "NCsoft",
+    "status": "inactive",
+    "revenue": 325229,
+    "joinDate": "2022-07-13",
+    "country": "AU",
+    "phone": "+96-489-8381",
+    "hasNotification": false,
+    "tags": [
+      "Partner",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-063",
+    "name": "최수아",
+    "email": "choi수아80@gmail.com",
+    "company": "FastCo",
+    "status": "inactive",
+    "revenue": 389019,
+    "joinDate": "2021-02-10",
+    "country": "DE",
+    "phone": "+56-740-4457",
+    "hasNotification": false,
+    "tags": [
+      "VIP",
+      "Enterprise",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-064",
+    "name": "정도윤",
+    "email": "jung도yoon10@naver.com",
+    "company": "Kakao",
+    "status": "active",
+    "revenue": 237193,
+    "joinDate": "2025-04-08",
+    "country": "DE",
+    "phone": "+67-133-4792",
+    "hasNotification": false,
+    "tags": [
+      "SMB",
+      "Startup",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-065",
+    "name": "강민서",
+    "email": "kang민seo81@company.io",
+    "company": "AcmeCo",
+    "status": "prospect",
+    "revenue": 490511,
+    "joinDate": "2022-03-21",
+    "country": "JP",
+    "phone": "+81-57-2880-9922",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "SMB",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-066",
+    "name": "조현우",
+    "email": "cho현woo22@work.net",
+    "company": "SmartBiz",
+    "status": "active",
+    "revenue": 393669,
+    "joinDate": "2023-03-28",
+    "country": "KR",
+    "phone": "010-8195-3037",
+    "hasNotification": false,
+    "tags": [
+      "SMB",
+      "Startup",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-067",
+    "name": "윤지우",
+    "email": "yoon지woo64@outlook.com",
+    "company": "Krafton",
+    "status": "active",
+    "revenue": 21898,
+    "joinDate": "2024-11-04",
+    "country": "DE",
+    "phone": "+71-718-5102",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-068",
+    "name": "임채원",
+    "email": "lim채원87@work.net",
+    "company": "GlobalSolutions",
+    "status": "active",
+    "revenue": 22092,
+    "joinDate": "2021-12-18",
+    "country": "AU",
+    "phone": "+90-631-8245",
+    "hasNotification": false,
+    "tags": [
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-069",
+    "name": "한소율",
+    "email": "han소율63@gmail.com",
+    "company": "두산중공업",
+    "status": "active",
+    "revenue": 215092,
+    "joinDate": "2023-09-27",
+    "country": "CN",
+    "phone": "+71-786-2713",
+    "hasNotification": true,
+    "tags": [
+      "Startup",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-070",
+    "name": "오세준",
+    "email": "oh세준52@work.net",
+    "company": "StarMedia",
+    "status": "prospect",
+    "revenue": 20239,
+    "joinDate": "2025-02-05",
+    "country": "CN",
+    "phone": "+41-422-5135",
+    "hasNotification": false,
+    "tags": [
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-071",
+    "name": "신예린",
+    "email": "shin예린1@tech.co",
+    "company": "Krafton",
+    "status": "prospect",
+    "revenue": 243208,
+    "joinDate": "2024-08-19",
+    "country": "AU",
+    "phone": "+36-292-9494",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "Partner",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-072",
+    "name": "홍승현",
+    "email": "hong승현71@naver.com",
+    "company": "InnoTech",
+    "status": "churned",
+    "revenue": 230699,
+    "joinDate": "2025-06-08",
+    "country": "JP",
+    "phone": "+81-18-1472-4920",
+    "hasNotification": true,
+    "tags": [
+      "Partner",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-073",
+    "name": "문지민",
+    "email": "moon지민12@naver.com",
+    "company": "NCsoft",
+    "status": "churned",
+    "revenue": 479638,
+    "joinDate": "2021-04-09",
+    "country": "GB",
+    "phone": "+89-220-3522",
+    "hasNotification": false,
+    "tags": [
+      "SMB",
+      "Partner",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-074",
+    "name": "양태양",
+    "email": "yangtaeyang32@outlook.com",
+    "company": "KT Corp",
+    "status": "inactive",
+    "revenue": 202109,
+    "joinDate": "2022-02-19",
+    "country": "GB",
+    "phone": "+95-864-3236",
+    "hasNotification": true,
+    "tags": [
+      "Startup",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-075",
+    "name": "백다은",
+    "email": "baek다은1@kakao.com",
+    "company": "Krafton",
+    "status": "prospect",
+    "revenue": 440078,
+    "joinDate": "2025-06-28",
+    "country": "JP",
+    "phone": "+81-22-8316-9824",
+    "hasNotification": false,
+    "tags": [
+      "SMB",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-076",
+    "name": "노준혁",
+    "email": "no준혁25@tech.co",
+    "company": "POSCO",
+    "status": "active",
+    "revenue": 201787,
+    "joinDate": "2022-08-14",
+    "country": "JP",
+    "phone": "+81-55-1715-6213",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "Partner",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-077",
+    "name": "엄수빈",
+    "email": "um수빈5@naver.com",
+    "company": "SK하이닉스",
+    "status": "inactive",
+    "revenue": 310424,
+    "joinDate": "2023-09-21",
+    "country": "GB",
+    "phone": "+42-995-8213",
+    "hasNotification": true,
+    "tags": [
+      "Startup",
+      "VIP",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-078",
+    "name": "권민재",
+    "email": "kwon민재84@naver.com",
+    "company": "SK하이닉스",
+    "status": "active",
+    "revenue": 410744,
+    "joinDate": "2022-12-21",
+    "country": "GB",
+    "phone": "+73-738-7512",
+    "hasNotification": true,
+    "tags": [
+      "Partner",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-079",
+    "name": "방소연",
+    "email": "bang소연92@work.net",
+    "company": "BrightFuture",
+    "status": "active",
+    "revenue": 284648,
+    "joinDate": "2020-05-27",
+    "country": "CN",
+    "phone": "+38-340-5708",
+    "hasNotification": true,
+    "tags": [
+      "VIP",
+      "Startup",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-080",
+    "name": "류지아",
+    "email": "ryu지아22@tech.co",
+    "company": "DigitalPro",
+    "status": "active",
+    "revenue": 16176,
+    "joinDate": "2020-07-07",
+    "country": "GB",
+    "phone": "+71-915-1919",
+    "hasNotification": false,
+    "tags": [
+      "SMB",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-081",
+    "name": "서현진",
+    "email": "seo현진68@outlook.com",
+    "company": "SK하이닉스",
+    "status": "inactive",
+    "revenue": 416508,
+    "joinDate": "2022-01-07",
+    "country": "US",
+    "phone": "+1-374-379-2293",
+    "hasNotification": false,
+    "tags": [
+      "Enterprise",
+      "Startup",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-082",
+    "name": "남궁민",
+    "email": "nam궁민60@tech.co",
+    "company": "SK하이닉스",
+    "status": "active",
+    "revenue": 134864,
+    "joinDate": "2020-02-08",
+    "country": "US",
+    "phone": "+1-676-494-9955",
+    "hasNotification": true,
+    "tags": [
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-083",
+    "name": "황보름",
+    "email": "hwang보름39@tech.co",
+    "company": "AlphaGroup",
+    "status": "churned",
+    "revenue": 362923,
+    "joinDate": "2022-10-21",
+    "country": "DE",
+    "phone": "+88-965-5949",
+    "hasNotification": true,
+    "tags": [
+      "Startup",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-084",
+    "name": "전예솔",
+    "email": "jun예솔74@kakao.com",
+    "company": "SkyNet",
+    "status": "inactive",
+    "revenue": 367623,
+    "joinDate": "2023-04-24",
+    "country": "GB",
+    "phone": "+32-949-7484",
+    "hasNotification": false,
+    "tags": [
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-085",
+    "name": "천지원",
+    "email": "chun지원96@outlook.com",
+    "company": "CloudWave",
+    "status": "prospect",
+    "revenue": 474397,
+    "joinDate": "2023-03-18",
+    "country": "DE",
+    "phone": "+59-721-6772",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "SMB",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-086",
+    "name": "마재윤",
+    "email": "ma재yoon13@tech.co",
+    "company": "LG화학",
+    "status": "inactive",
+    "revenue": 162969,
+    "joinDate": "2024-12-10",
+    "country": "CN",
+    "phone": "+34-693-6977",
+    "hasNotification": true,
+    "tags": [
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-087",
+    "name": "태민석",
+    "email": "tae민석54@naver.com",
+    "company": "BrightFuture",
+    "status": "active",
+    "revenue": 413359,
+    "joinDate": "2024-02-07",
+    "country": "CN",
+    "phone": "+97-613-5465",
+    "hasNotification": true,
+    "tags": [
+      "Startup",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-088",
+    "name": "안지혜",
+    "email": "an지혜15@outlook.com",
+    "company": "OmegaTech",
+    "status": "churned",
+    "revenue": 74797,
+    "joinDate": "2022-07-13",
+    "country": "AU",
+    "phone": "+80-966-6992",
+    "hasNotification": true,
+    "tags": [
+      "VIP",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-089",
+    "name": "우서준",
+    "email": "wooseo준59@kakao.com",
+    "company": "Smilegate",
+    "status": "prospect",
+    "revenue": 353500,
+    "joinDate": "2022-12-09",
+    "country": "KR",
+    "phone": "010-7242-7086",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "Startup",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-090",
+    "name": "James Wilson",
+    "email": "james.wilson79@naver.com",
+    "company": "NCsoft",
+    "status": "inactive",
+    "revenue": 334134,
+    "joinDate": "2025-03-16",
+    "country": "JP",
+    "phone": "+81-41-7689-2911",
+    "hasNotification": true,
+    "tags": [
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-091",
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson15@gmail.com",
+    "company": "FastCo",
+    "status": "active",
+    "revenue": 282829,
+    "joinDate": "2021-07-09",
+    "country": "GB",
+    "phone": "+79-564-7078",
+    "hasNotification": false,
+    "tags": [
+      "Enterprise",
+      "Startup",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-092",
+    "name": "Michael Brown",
+    "email": "michael.brown63@company.io",
+    "company": "DigitalPro",
+    "status": "active",
+    "revenue": 499871,
+    "joinDate": "2023-02-19",
+    "country": "AU",
+    "phone": "+34-806-7070",
+    "hasNotification": true,
+    "tags": [
+      "Startup",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-093",
+    "name": "Emily Davis",
+    "email": "emily.davis88@kakao.com",
+    "company": "ZetaSoft",
+    "status": "inactive",
+    "revenue": 339074,
+    "joinDate": "2024-01-09",
+    "country": "KR",
+    "phone": "010-1992-7523",
+    "hasNotification": false,
+    "tags": [
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-094",
+    "name": "Robert Taylor",
+    "email": "robert.taylor85@naver.com",
+    "company": "POSCO",
+    "status": "inactive",
+    "revenue": 314076,
+    "joinDate": "2020-03-28",
+    "country": "KR",
+    "phone": "010-1828-6464",
+    "hasNotification": true,
+    "tags": [
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-095",
+    "name": "Jessica Martinez",
+    "email": "jessica.martinez98@company.io",
+    "company": "InnoTech",
+    "status": "active",
+    "revenue": 114220,
+    "joinDate": "2022-08-12",
+    "country": "KR",
+    "phone": "010-6383-3417",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-096",
+    "name": "David Anderson",
+    "email": "david.anderson23@gmail.com",
+    "company": "Smilegate",
+    "status": "prospect",
+    "revenue": 14516,
+    "joinDate": "2021-06-23",
+    "country": "JP",
+    "phone": "+81-4-6869-4898",
+    "hasNotification": false,
+    "tags": [
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-097",
+    "name": "Ashley Thomas",
+    "email": "ashley.thomas17@tech.co",
+    "company": "BlueOcean",
+    "status": "active",
+    "revenue": 60584,
+    "joinDate": "2020-09-17",
+    "country": "KR",
+    "phone": "010-8802-8344",
+    "hasNotification": false,
+    "tags": [
+      "Partner",
+      "VIP",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-098",
+    "name": "Christopher Jackson",
+    "email": "christopher.jackson79@gmail.com",
+    "company": "Krafton",
+    "status": "prospect",
+    "revenue": 477447,
+    "joinDate": "2025-11-05",
+    "country": "US",
+    "phone": "+1-508-669-1510",
+    "hasNotification": true,
+    "tags": [
+      "Startup",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-099",
+    "name": "Amanda White",
+    "email": "amanda.white92@outlook.com",
+    "company": "DigitalPro",
+    "status": "active",
+    "revenue": 43357,
+    "joinDate": "2023-08-12",
+    "country": "GB",
+    "phone": "+48-167-3067",
+    "hasNotification": false,
+    "tags": [
+      "Partner",
+      "SMB",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-100",
+    "name": "Matthew Harris",
+    "email": "matthew.harris59@company.io",
+    "company": "Krafton",
+    "status": "inactive",
+    "revenue": 52998,
+    "joinDate": "2021-04-13",
+    "country": "JP",
+    "phone": "+81-86-4522-8046",
+    "hasNotification": false,
+    "tags": [
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-101",
+    "name": "Jennifer Garcia",
+    "email": "jennifer.garcia59@outlook.com",
+    "company": "OmegaTech",
+    "status": "active",
+    "revenue": 50852,
+    "joinDate": "2023-07-04",
+    "country": "AU",
+    "phone": "+84-420-5176",
+    "hasNotification": false,
+    "tags": [
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-102",
+    "name": "Daniel Martinez",
+    "email": "daniel.martinez11@gmail.com",
+    "company": "SmartBiz",
+    "status": "active",
+    "revenue": 391379,
+    "joinDate": "2024-03-06",
+    "country": "KR",
+    "phone": "010-3131-1982",
+    "hasNotification": false,
+    "tags": [
+      "VIP",
+      "Startup",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-103",
+    "name": "Linda Robinson",
+    "email": "linda.robinson93@gmail.com",
+    "company": "두산중공업",
+    "status": "churned",
+    "revenue": 315787,
+    "joinDate": "2023-07-03",
+    "country": "AU",
+    "phone": "+75-206-9313",
+    "hasNotification": true,
+    "tags": [
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-104",
+    "name": "Andrew Clark",
+    "email": "andrew.clark14@kakao.com",
+    "company": "AcmeCo",
+    "status": "prospect",
+    "revenue": 193707,
+    "joinDate": "2021-04-15",
+    "country": "AU",
+    "phone": "+65-687-4705",
+    "hasNotification": false,
+    "tags": [
+      "Partner",
+      "VIP",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-105",
+    "name": "Barbara Lewis",
+    "email": "barbara.lewis24@kakao.com",
+    "company": "GreenPower",
+    "status": "prospect",
+    "revenue": 162996,
+    "joinDate": "2023-10-23",
+    "country": "KR",
+    "phone": "010-6751-1100",
+    "hasNotification": true,
+    "tags": [
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-106",
+    "name": "Joshua Walker",
+    "email": "joshua.walker19@tech.co",
+    "company": "현대자동차",
+    "status": "inactive",
+    "revenue": 17073,
+    "joinDate": "2021-01-10",
+    "country": "KR",
+    "phone": "010-9691-4524",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-107",
+    "name": "Susan Hall",
+    "email": "susan.hall40@tech.co",
+    "company": "Naver Corp",
+    "status": "active",
+    "revenue": 494568,
+    "joinDate": "2020-12-13",
+    "country": "JP",
+    "phone": "+81-9-3549-3579",
+    "hasNotification": true,
+    "tags": [
+      "VIP",
+      "SMB",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-108",
+    "name": "Ryan Allen",
+    "email": "ryan.allen78@outlook.com",
+    "company": "두산중공업",
+    "status": "active",
+    "revenue": 114020,
+    "joinDate": "2025-09-29",
+    "country": "GB",
+    "phone": "+44-453-8043",
+    "hasNotification": true,
+    "tags": [
+      "Partner",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-109",
+    "name": "Karen Young",
+    "email": "karen.young40@gmail.com",
+    "company": "Krafton",
+    "status": "active",
+    "revenue": 315218,
+    "joinDate": "2020-08-12",
+    "country": "CN",
+    "phone": "+30-309-5938",
+    "hasNotification": true,
+    "tags": [
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-110",
+    "name": "Kevin Moore",
+    "email": "kevin.moore16@gmail.com",
+    "company": "StarMedia",
+    "status": "active",
+    "revenue": 226787,
+    "joinDate": "2021-12-20",
+    "country": "JP",
+    "phone": "+81-19-7229-9725",
+    "hasNotification": true,
+    "tags": [
+      "Partner",
+      "SMB",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-111",
+    "name": "Nancy Lee",
+    "email": "nancy.lee95@gmail.com",
+    "company": "현대자동차",
+    "status": "active",
+    "revenue": 242043,
+    "joinDate": "2020-11-14",
+    "country": "AU",
+    "phone": "+70-689-8033",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "SMB",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-112",
+    "name": "Brian Scott",
+    "email": "brian.scott42@naver.com",
+    "company": "현대자동차",
+    "status": "prospect",
+    "revenue": 325075,
+    "joinDate": "2025-02-27",
+    "country": "KR",
+    "phone": "010-6928-2443",
+    "hasNotification": false,
+    "tags": [
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-113",
+    "name": "Donna King",
+    "email": "donna.king52@company.io",
+    "company": "두산중공업",
+    "status": "active",
+    "revenue": 457405,
+    "joinDate": "2023-06-24",
+    "country": "DE",
+    "phone": "+73-326-6456",
+    "hasNotification": true,
+    "tags": [
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-114",
+    "name": "George Wright",
+    "email": "george.wright66@naver.com",
+    "company": "삼성전자",
+    "status": "churned",
+    "revenue": 184173,
+    "joinDate": "2023-12-09",
+    "country": "DE",
+    "phone": "+48-341-2684",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-115",
+    "name": "Patricia Green",
+    "email": "patricia.green98@tech.co",
+    "company": "SK하이닉스",
+    "status": "active",
+    "revenue": 499751,
+    "joinDate": "2025-07-16",
+    "country": "AU",
+    "phone": "+89-872-8354",
+    "hasNotification": false,
+    "tags": [
+      "SMB",
+      "Enterprise",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-116",
+    "name": "Edward Baker",
+    "email": "edward.baker57@tech.co",
+    "company": "SmartBiz",
+    "status": "active",
+    "revenue": 145008,
+    "joinDate": "2020-08-18",
+    "country": "GB",
+    "phone": "+75-619-2215",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-117",
+    "name": "Sandra Adams",
+    "email": "sandra.adams37@gmail.com",
+    "company": "CloudWave",
+    "status": "inactive",
+    "revenue": 449420,
+    "joinDate": "2021-01-04",
+    "country": "JP",
+    "phone": "+81-81-9307-7299",
+    "hasNotification": false,
+    "tags": [
+      "Partner",
+      "VIP",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-118",
+    "name": "Timothy Nelson",
+    "email": "timothy.nelson78@outlook.com",
+    "company": "Hyundai Motors",
+    "status": "inactive",
+    "revenue": 33439,
+    "joinDate": "2025-01-19",
+    "country": "JP",
+    "phone": "+81-16-6626-2381",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-119",
+    "name": "Carol Carter",
+    "email": "carol.carter68@company.io",
+    "company": "LG전자",
+    "status": "inactive",
+    "revenue": 191787,
+    "joinDate": "2024-03-07",
+    "country": "GB",
+    "phone": "+66-496-7697",
+    "hasNotification": false,
+    "tags": [
+      "Partner",
+      "VIP",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-120",
+    "name": "김민준",
+    "email": "kim민준43@gmail.com",
+    "company": "OmegaTech",
+    "status": "inactive",
+    "revenue": 203670,
+    "joinDate": "2023-03-09",
+    "country": "KR",
+    "phone": "010-5128-3463",
+    "hasNotification": false,
+    "tags": [
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-121",
+    "name": "이서연",
+    "email": "leeseo연40@tech.co",
+    "company": "SK하이닉스",
+    "status": "prospect",
+    "revenue": 206498,
+    "joinDate": "2021-06-12",
+    "country": "JP",
+    "phone": "+81-79-2388-6072",
+    "hasNotification": false,
+    "tags": [
+      "SMB",
+      "Enterprise",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-122",
+    "name": "박지훈",
+    "email": "park지훈83@tech.co",
+    "company": "Krafton",
+    "status": "active",
+    "revenue": 190702,
+    "joinDate": "2020-03-15",
+    "country": "KR",
+    "phone": "010-6940-6060",
+    "hasNotification": true,
+    "tags": [
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-123",
+    "name": "최수아",
+    "email": "choi수아29@naver.com",
+    "company": "WooahanBros",
+    "status": "active",
+    "revenue": 156080,
+    "joinDate": "2021-02-18",
+    "country": "US",
+    "phone": "+1-719-989-9843",
+    "hasNotification": true,
+    "tags": [
+      "SMB",
+      "Enterprise",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-124",
+    "name": "정도윤",
+    "email": "jung도yoon21@naver.com",
+    "company": "Beta Inc",
+    "status": "prospect",
+    "revenue": 405277,
+    "joinDate": "2021-11-09",
+    "country": "US",
+    "phone": "+1-938-648-1715",
+    "hasNotification": false,
+    "tags": [
+      "Enterprise",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-125",
+    "name": "강민서",
+    "email": "kang민seo96@work.net",
+    "company": "StarMedia",
+    "status": "active",
+    "revenue": 280975,
+    "joinDate": "2022-09-06",
+    "country": "AU",
+    "phone": "+69-928-8684",
+    "hasNotification": true,
+    "tags": [
+      "Partner",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-126",
+    "name": "조현우",
+    "email": "cho현woo37@work.net",
+    "company": "POSCO",
+    "status": "active",
+    "revenue": 277540,
+    "joinDate": "2024-09-10",
+    "country": "AU",
+    "phone": "+50-936-4271",
+    "hasNotification": true,
+    "tags": [
+      "VIP",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-127",
+    "name": "윤지우",
+    "email": "yoon지woo14@tech.co",
+    "company": "ZetaSoft",
+    "status": "prospect",
+    "revenue": 447256,
+    "joinDate": "2021-05-25",
+    "country": "DE",
+    "phone": "+66-185-3626",
+    "hasNotification": false,
+    "tags": [
+      "Partner",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-128",
+    "name": "임채원",
+    "email": "lim채원29@work.net",
+    "company": "두산중공업",
+    "status": "active",
+    "revenue": 184283,
+    "joinDate": "2020-04-19",
+    "country": "KR",
+    "phone": "010-7797-1872",
+    "hasNotification": false,
+    "tags": [
+      "SMB",
+      "Enterprise",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-129",
+    "name": "한소율",
+    "email": "han소율29@gmail.com",
+    "company": "NextGen",
+    "status": "active",
+    "revenue": 52948,
+    "joinDate": "2023-10-05",
+    "country": "JP",
+    "phone": "+81-21-3254-1627",
+    "hasNotification": false,
+    "tags": [
+      "Enterprise",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-130",
+    "name": "오세준",
+    "email": "oh세준1@gmail.com",
+    "company": "LG전자",
+    "status": "active",
+    "revenue": 114065,
+    "joinDate": "2021-09-04",
+    "country": "DE",
+    "phone": "+97-533-2821",
+    "hasNotification": false,
+    "tags": [
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-131",
+    "name": "신예린",
+    "email": "shin예린31@outlook.com",
+    "company": "삼성전자",
+    "status": "inactive",
+    "revenue": 327532,
+    "joinDate": "2025-02-15",
+    "country": "KR",
+    "phone": "010-2029-2816",
+    "hasNotification": false,
+    "tags": [
+      "Partner",
+      "VIP",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-132",
+    "name": "홍승현",
+    "email": "hong승현31@tech.co",
+    "company": "Krafton",
+    "status": "active",
+    "revenue": 226044,
+    "joinDate": "2020-01-07",
+    "country": "DE",
+    "phone": "+75-346-7825",
+    "hasNotification": true,
+    "tags": [
+      "VIP",
+      "SMB",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-133",
+    "name": "문지민",
+    "email": "moon지민65@work.net",
+    "company": "Krafton",
+    "status": "churned",
+    "revenue": 291535,
+    "joinDate": "2020-03-24",
+    "country": "DE",
+    "phone": "+79-994-8702",
+    "hasNotification": true,
+    "tags": [
+      "Startup",
+      "SMB",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-134",
+    "name": "양태양",
+    "email": "yangtaeyang9@kakao.com",
+    "company": "GlobalSolutions",
+    "status": "active",
+    "revenue": 345511,
+    "joinDate": "2021-02-28",
+    "country": "JP",
+    "phone": "+81-77-6447-3185",
+    "hasNotification": true,
+    "tags": [
+      "Partner",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-135",
+    "name": "백다은",
+    "email": "baek다은88@outlook.com",
+    "company": "Kakao",
+    "status": "churned",
+    "revenue": 251888,
+    "joinDate": "2022-01-16",
+    "country": "AU",
+    "phone": "+47-164-8498",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-136",
+    "name": "노준혁",
+    "email": "no준혁41@kakao.com",
+    "company": "Hyundai Motors",
+    "status": "inactive",
+    "revenue": 428507,
+    "joinDate": "2025-04-23",
+    "country": "KR",
+    "phone": "010-5150-1599",
+    "hasNotification": true,
+    "tags": [
+      "SMB",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-137",
+    "name": "엄수빈",
+    "email": "um수빈16@work.net",
+    "company": "OmegaTech",
+    "status": "active",
+    "revenue": 467347,
+    "joinDate": "2024-06-26",
+    "country": "JP",
+    "phone": "+81-59-7334-6554",
+    "hasNotification": true,
+    "tags": [
+      "Startup",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-138",
+    "name": "권민재",
+    "email": "kwon민재11@tech.co",
+    "company": "Krafton",
+    "status": "active",
+    "revenue": 226762,
+    "joinDate": "2022-01-09",
+    "country": "JP",
+    "phone": "+81-72-5813-6262",
+    "hasNotification": true,
+    "tags": [
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-139",
+    "name": "방소연",
+    "email": "bang소연58@company.io",
+    "company": "StarMedia",
+    "status": "prospect",
+    "revenue": 88369,
+    "joinDate": "2024-12-23",
+    "country": "JP",
+    "phone": "+81-47-8325-1693",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "SMB",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-140",
+    "name": "류지아",
+    "email": "ryu지아86@tech.co",
+    "company": "CloudWave",
+    "status": "active",
+    "revenue": 270004,
+    "joinDate": "2021-10-17",
+    "country": "KR",
+    "phone": "010-1510-3339",
+    "hasNotification": false,
+    "tags": [
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-141",
+    "name": "서현진",
+    "email": "seo현진83@kakao.com",
+    "company": "SmartBiz",
+    "status": "active",
+    "revenue": 498794,
+    "joinDate": "2020-05-12",
+    "country": "US",
+    "phone": "+1-819-357-8371",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-142",
+    "name": "남궁민",
+    "email": "nam궁민47@outlook.com",
+    "company": "LG화학",
+    "status": "active",
+    "revenue": 147113,
+    "joinDate": "2022-10-19",
+    "country": "DE",
+    "phone": "+44-126-4048",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "VIP",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-143",
+    "name": "황보름",
+    "email": "hwang보름58@naver.com",
+    "company": "BlueOcean",
+    "status": "churned",
+    "revenue": 150724,
+    "joinDate": "2025-07-04",
+    "country": "CN",
+    "phone": "+55-225-3223",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-144",
+    "name": "전예솔",
+    "email": "jun예솔88@work.net",
+    "company": "NextGen",
+    "status": "churned",
+    "revenue": 351140,
+    "joinDate": "2023-11-24",
+    "country": "AU",
+    "phone": "+38-663-9882",
+    "hasNotification": false,
+    "tags": [
+      "Enterprise",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-145",
+    "name": "천지원",
+    "email": "chun지원29@gmail.com",
+    "company": "ZetaSoft",
+    "status": "churned",
+    "revenue": 416270,
+    "joinDate": "2021-07-22",
+    "country": "DE",
+    "phone": "+60-909-9094",
+    "hasNotification": true,
+    "tags": [
+      "Partner",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-146",
+    "name": "마재윤",
+    "email": "ma재yoon71@naver.com",
+    "company": "POSCO",
+    "status": "inactive",
+    "revenue": 46201,
+    "joinDate": "2020-09-26",
+    "country": "AU",
+    "phone": "+69-507-8842",
+    "hasNotification": false,
+    "tags": [
+      "Partner",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-147",
+    "name": "태민석",
+    "email": "tae민석83@gmail.com",
+    "company": "LG화학",
+    "status": "active",
+    "revenue": 357572,
+    "joinDate": "2025-10-20",
+    "country": "JP",
+    "phone": "+81-47-3102-3981",
+    "hasNotification": true,
+    "tags": [
+      "Partner",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-148",
+    "name": "안지혜",
+    "email": "an지혜20@kakao.com",
+    "company": "삼성전자",
+    "status": "active",
+    "revenue": 170167,
+    "joinDate": "2022-07-12",
+    "country": "DE",
+    "phone": "+74-631-5653",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-149",
+    "name": "우서준",
+    "email": "wooseo준39@company.io",
+    "company": "LG화학",
+    "status": "inactive",
+    "revenue": 264493,
+    "joinDate": "2021-11-21",
+    "country": "CN",
+    "phone": "+49-275-6531",
+    "hasNotification": true,
+    "tags": [
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-150",
+    "name": "James Wilson",
+    "email": "james.wilson99@company.io",
+    "company": "DataSystems",
+    "status": "active",
+    "revenue": 111524,
+    "joinDate": "2024-09-02",
+    "country": "CN",
+    "phone": "+33-609-9938",
+    "hasNotification": false,
+    "tags": [
+      "SMB",
+      "Startup",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-151",
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson59@gmail.com",
+    "company": "현대자동차",
+    "status": "prospect",
+    "revenue": 83879,
+    "joinDate": "2024-12-05",
+    "country": "JP",
+    "phone": "+81-56-8933-8609",
+    "hasNotification": true,
+    "tags": [
+      "Partner",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-152",
+    "name": "Michael Brown",
+    "email": "michael.brown92@kakao.com",
+    "company": "BrightFuture",
+    "status": "prospect",
+    "revenue": 452295,
+    "joinDate": "2023-11-15",
+    "country": "AU",
+    "phone": "+81-233-7070",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-153",
+    "name": "Emily Davis",
+    "email": "emily.davis58@naver.com",
+    "company": "삼성전자",
+    "status": "active",
+    "revenue": 27531,
+    "joinDate": "2023-04-03",
+    "country": "JP",
+    "phone": "+81-52-7850-5067",
+    "hasNotification": true,
+    "tags": [
+      "Partner",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-154",
+    "name": "Robert Taylor",
+    "email": "robert.taylor21@outlook.com",
+    "company": "Hyundai Motors",
+    "status": "churned",
+    "revenue": 245745,
+    "joinDate": "2025-08-04",
+    "country": "AU",
+    "phone": "+69-609-1379",
+    "hasNotification": true,
+    "tags": [
+      "Partner",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-155",
+    "name": "Jessica Martinez",
+    "email": "jessica.martinez75@kakao.com",
+    "company": "SkyNet",
+    "status": "active",
+    "revenue": 148511,
+    "joinDate": "2025-07-20",
+    "country": "US",
+    "phone": "+1-811-869-8710",
+    "hasNotification": false,
+    "tags": [
+      "VIP",
+      "Partner",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-156",
+    "name": "David Anderson",
+    "email": "david.anderson94@kakao.com",
+    "company": "LG화학",
+    "status": "prospect",
+    "revenue": 192856,
+    "joinDate": "2020-07-04",
+    "country": "JP",
+    "phone": "+81-54-1838-4189",
+    "hasNotification": false,
+    "tags": [
+      "SMB",
+      "VIP",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-157",
+    "name": "Ashley Thomas",
+    "email": "ashley.thomas98@company.io",
+    "company": "Krafton",
+    "status": "active",
+    "revenue": 327758,
+    "joinDate": "2021-05-01",
+    "country": "GB",
+    "phone": "+46-199-7453",
+    "hasNotification": false,
+    "tags": [
+      "Partner",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-158",
+    "name": "Christopher Jackson",
+    "email": "christopher.jackson78@company.io",
+    "company": "SK하이닉스",
+    "status": "active",
+    "revenue": 22105,
+    "joinDate": "2020-07-04",
+    "country": "US",
+    "phone": "+1-239-340-6456",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "Enterprise",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-159",
+    "name": "Amanda White",
+    "email": "amanda.white42@company.io",
+    "company": "Krafton",
+    "status": "active",
+    "revenue": 207021,
+    "joinDate": "2023-05-10",
+    "country": "US",
+    "phone": "+1-807-544-9311",
+    "hasNotification": false,
+    "tags": [
+      "Partner",
+      "SMB",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-160",
+    "name": "Matthew Harris",
+    "email": "matthew.harris43@tech.co",
+    "company": "GlobalSolutions",
+    "status": "active",
+    "revenue": 219387,
+    "joinDate": "2023-06-14",
+    "country": "JP",
+    "phone": "+81-83-1436-8775",
+    "hasNotification": false,
+    "tags": [
+      "Partner",
+      "Enterprise",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-161",
+    "name": "Jennifer Garcia",
+    "email": "jennifer.garcia62@naver.com",
+    "company": "CloudWave",
+    "status": "inactive",
+    "revenue": 379107,
+    "joinDate": "2024-04-06",
+    "country": "DE",
+    "phone": "+48-941-4968",
+    "hasNotification": true,
+    "tags": [
+      "VIP",
+      "Enterprise",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-162",
+    "name": "Daniel Martinez",
+    "email": "daniel.martinez54@naver.com",
+    "company": "LG전자",
+    "status": "active",
+    "revenue": 107897,
+    "joinDate": "2024-08-07",
+    "country": "JP",
+    "phone": "+81-67-8726-2020",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "SMB",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-163",
+    "name": "Linda Robinson",
+    "email": "linda.robinson49@kakao.com",
+    "company": "KT Corp",
+    "status": "churned",
+    "revenue": 241996,
+    "joinDate": "2025-12-23",
+    "country": "DE",
+    "phone": "+73-659-6804",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "Enterprise",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-164",
+    "name": "Andrew Clark",
+    "email": "andrew.clark39@naver.com",
+    "company": "GreenPower",
+    "status": "churned",
+    "revenue": 157035,
+    "joinDate": "2023-03-29",
+    "country": "DE",
+    "phone": "+56-806-9011",
+    "hasNotification": false,
+    "tags": [
+      "SMB",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-165",
+    "name": "Barbara Lewis",
+    "email": "barbara.lewis74@tech.co",
+    "company": "StarMedia",
+    "status": "inactive",
+    "revenue": 470636,
+    "joinDate": "2024-06-04",
+    "country": "KR",
+    "phone": "010-6654-3399",
+    "hasNotification": false,
+    "tags": [
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-166",
+    "name": "Joshua Walker",
+    "email": "joshua.walker57@tech.co",
+    "company": "NextGen",
+    "status": "active",
+    "revenue": 252175,
+    "joinDate": "2022-05-26",
+    "country": "JP",
+    "phone": "+81-28-9824-5442",
+    "hasNotification": false,
+    "tags": [
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-167",
+    "name": "Susan Hall",
+    "email": "susan.hall7@tech.co",
+    "company": "SkyNet",
+    "status": "churned",
+    "revenue": 119316,
+    "joinDate": "2022-08-11",
+    "country": "US",
+    "phone": "+1-253-302-7771",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "VIP",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-168",
+    "name": "Ryan Allen",
+    "email": "ryan.allen71@naver.com",
+    "company": "LG화학",
+    "status": "active",
+    "revenue": 491226,
+    "joinDate": "2025-05-02",
+    "country": "KR",
+    "phone": "010-8822-4267",
+    "hasNotification": false,
+    "tags": [
+      "SMB",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-169",
+    "name": "Karen Young",
+    "email": "karen.young74@naver.com",
+    "company": "NextGen",
+    "status": "inactive",
+    "revenue": 380121,
+    "joinDate": "2020-06-01",
+    "country": "CN",
+    "phone": "+52-527-3880",
+    "hasNotification": true,
+    "tags": [
+      "Startup",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-170",
+    "name": "Kevin Moore",
+    "email": "kevin.moore2@kakao.com",
+    "company": "StarMedia",
+    "status": "inactive",
+    "revenue": 57256,
+    "joinDate": "2023-10-04",
+    "country": "KR",
+    "phone": "010-5662-8444",
+    "hasNotification": false,
+    "tags": [
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-171",
+    "name": "Nancy Lee",
+    "email": "nancy.lee25@work.net",
+    "company": "POSCO",
+    "status": "active",
+    "revenue": 86193,
+    "joinDate": "2025-02-22",
+    "country": "JP",
+    "phone": "+81-85-5215-4050",
+    "hasNotification": true,
+    "tags": [
+      "SMB",
+      "Partner",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-172",
+    "name": "Brian Scott",
+    "email": "brian.scott79@work.net",
+    "company": "Hyundai Motors",
+    "status": "inactive",
+    "revenue": 213593,
+    "joinDate": "2024-10-17",
+    "country": "US",
+    "phone": "+1-727-535-2421",
+    "hasNotification": false,
+    "tags": [
+      "VIP",
+      "Enterprise",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-173",
+    "name": "Donna King",
+    "email": "donna.king32@gmail.com",
+    "company": "KT Corp",
+    "status": "active",
+    "revenue": 124480,
+    "joinDate": "2025-01-03",
+    "country": "JP",
+    "phone": "+81-37-6400-5947",
+    "hasNotification": true,
+    "tags": [
+      "SMB",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-174",
+    "name": "George Wright",
+    "email": "george.wright16@outlook.com",
+    "company": "CloudWave",
+    "status": "active",
+    "revenue": 213555,
+    "joinDate": "2025-08-20",
+    "country": "CN",
+    "phone": "+69-806-2923",
+    "hasNotification": false,
+    "tags": [
+      "Partner",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-175",
+    "name": "Patricia Green",
+    "email": "patricia.green62@naver.com",
+    "company": "AcmeCo",
+    "status": "active",
+    "revenue": 318581,
+    "joinDate": "2024-03-10",
+    "country": "US",
+    "phone": "+1-625-918-9998",
+    "hasNotification": false,
+    "tags": [
+      "Enterprise",
+      "Partner",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-176",
+    "name": "Edward Baker",
+    "email": "edward.baker58@company.io",
+    "company": "NextGen",
+    "status": "prospect",
+    "revenue": 41948,
+    "joinDate": "2021-04-04",
+    "country": "DE",
+    "phone": "+37-948-9972",
+    "hasNotification": true,
+    "tags": [
+      "Partner",
+      "Enterprise",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-177",
+    "name": "Sandra Adams",
+    "email": "sandra.adams67@outlook.com",
+    "company": "BrightFuture",
+    "status": "active",
+    "revenue": 108689,
+    "joinDate": "2025-06-25",
+    "country": "AU",
+    "phone": "+41-622-8298",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-178",
+    "name": "Timothy Nelson",
+    "email": "timothy.nelson8@company.io",
+    "company": "POSCO",
+    "status": "active",
+    "revenue": 424056,
+    "joinDate": "2023-06-16",
+    "country": "DE",
+    "phone": "+32-505-5169",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "VIP",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-179",
+    "name": "Carol Carter",
+    "email": "carol.carter90@gmail.com",
+    "company": "두산중공업",
+    "status": "inactive",
+    "revenue": 32591,
+    "joinDate": "2020-10-09",
+    "country": "JP",
+    "phone": "+81-63-1519-5703",
+    "hasNotification": false,
+    "tags": [
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-180",
+    "name": "김민준",
+    "email": "kim민준49@outlook.com",
+    "company": "Coupang",
+    "status": "prospect",
+    "revenue": 476407,
+    "joinDate": "2024-03-26",
+    "country": "JP",
+    "phone": "+81-51-2314-9835",
+    "hasNotification": true,
+    "tags": [
+      "SMB",
+      "VIP",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-181",
+    "name": "이서연",
+    "email": "leeseo연68@naver.com",
+    "company": "Smilegate",
+    "status": "prospect",
+    "revenue": 117753,
+    "joinDate": "2020-01-15",
+    "country": "GB",
+    "phone": "+32-405-8585",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "Enterprise",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-182",
+    "name": "박지훈",
+    "email": "park지훈20@kakao.com",
+    "company": "POSCO",
+    "status": "active",
+    "revenue": 459861,
+    "joinDate": "2021-04-07",
+    "country": "JP",
+    "phone": "+81-7-7868-1256",
+    "hasNotification": true,
+    "tags": [
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-183",
+    "name": "최수아",
+    "email": "choi수아5@outlook.com",
+    "company": "DigitalPro",
+    "status": "inactive",
+    "revenue": 369724,
+    "joinDate": "2020-07-18",
+    "country": "DE",
+    "phone": "+61-858-1724",
+    "hasNotification": false,
+    "tags": [
+      "Enterprise",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-184",
+    "name": "정도윤",
+    "email": "jung도yoon65@kakao.com",
+    "company": "CloudWave",
+    "status": "active",
+    "revenue": 481455,
+    "joinDate": "2023-07-30",
+    "country": "US",
+    "phone": "+1-791-812-6253",
+    "hasNotification": true,
+    "tags": [
+      "Enterprise",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-185",
+    "name": "강민서",
+    "email": "kang민seo36@gmail.com",
+    "company": "Coupang",
+    "status": "inactive",
+    "revenue": 311203,
+    "joinDate": "2021-12-18",
+    "country": "JP",
+    "phone": "+81-83-7999-9120",
+    "hasNotification": true,
+    "tags": [
+      "Startup",
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-186",
+    "name": "조현우",
+    "email": "cho현woo20@kakao.com",
+    "company": "Coupang",
+    "status": "active",
+    "revenue": 396531,
+    "joinDate": "2025-04-23",
+    "country": "GB",
+    "phone": "+60-969-4692",
+    "hasNotification": false,
+    "tags": [
+      "Enterprise",
+      "Startup",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-187",
+    "name": "윤지우",
+    "email": "yoon지woo54@company.io",
+    "company": "NCsoft",
+    "status": "inactive",
+    "revenue": 204643,
+    "joinDate": "2022-09-21",
+    "country": "GB",
+    "phone": "+62-308-6411",
+    "hasNotification": true,
+    "tags": [
+      "SMB",
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-188",
+    "name": "임채원",
+    "email": "lim채원25@gmail.com",
+    "company": "Smilegate",
+    "status": "active",
+    "revenue": 354198,
+    "joinDate": "2020-06-10",
+    "country": "CN",
+    "phone": "+39-292-4555",
+    "hasNotification": false,
+    "tags": [
+      "SMB"
+    ]
+  },
+  {
+    "id": "cust-189",
+    "name": "한소율",
+    "email": "han소율28@naver.com",
+    "company": "FastCo",
+    "status": "churned",
+    "revenue": 62507,
+    "joinDate": "2025-05-15",
+    "country": "KR",
+    "phone": "010-4974-4350",
+    "hasNotification": false,
+    "tags": [
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-190",
+    "name": "오세준",
+    "email": "oh세준37@outlook.com",
+    "company": "BrightFuture",
+    "status": "active",
+    "revenue": 341116,
+    "joinDate": "2024-01-11",
+    "country": "AU",
+    "phone": "+69-367-6892",
+    "hasNotification": false,
+    "tags": [
+      "VIP",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-191",
+    "name": "신예린",
+    "email": "shin예린48@kakao.com",
+    "company": "BrightFuture",
+    "status": "active",
+    "revenue": 295924,
+    "joinDate": "2022-06-25",
+    "country": "US",
+    "phone": "+1-959-349-1265",
+    "hasNotification": false,
+    "tags": [
+      "Partner",
+      "Startup",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-192",
+    "name": "홍승현",
+    "email": "hong승현43@naver.com",
+    "company": "SK하이닉스",
+    "status": "active",
+    "revenue": 437922,
+    "joinDate": "2022-10-03",
+    "country": "US",
+    "phone": "+1-711-763-6530",
+    "hasNotification": false,
+    "tags": [
+      "Startup",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-193",
+    "name": "문지민",
+    "email": "moon지민46@naver.com",
+    "company": "Naver Corp",
+    "status": "active",
+    "revenue": 287547,
+    "joinDate": "2025-06-23",
+    "country": "CN",
+    "phone": "+53-655-1962",
+    "hasNotification": true,
+    "tags": [
+      "VIP"
+    ]
+  },
+  {
+    "id": "cust-194",
+    "name": "양태양",
+    "email": "yangtaeyang18@work.net",
+    "company": "TechCorp",
+    "status": "inactive",
+    "revenue": 36634,
+    "joinDate": "2021-09-10",
+    "country": "GB",
+    "phone": "+31-323-9285",
+    "hasNotification": false,
+    "tags": [
+      "VIP",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-195",
+    "name": "백다은",
+    "email": "baek다은1@company.io",
+    "company": "WooahanBros",
+    "status": "inactive",
+    "revenue": 7213,
+    "joinDate": "2020-03-09",
+    "country": "KR",
+    "phone": "010-9673-5501",
+    "hasNotification": false,
+    "tags": [
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-196",
+    "name": "노준혁",
+    "email": "no준혁23@gmail.com",
+    "company": "두산중공업",
+    "status": "churned",
+    "revenue": 275928,
+    "joinDate": "2021-09-01",
+    "country": "AU",
+    "phone": "+60-296-9625",
+    "hasNotification": false,
+    "tags": [
+      "SMB",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-197",
+    "name": "엄수빈",
+    "email": "um수빈52@outlook.com",
+    "company": "NextGen",
+    "status": "inactive",
+    "revenue": 366552,
+    "joinDate": "2022-07-14",
+    "country": "JP",
+    "phone": "+81-41-2320-1519",
+    "hasNotification": true,
+    "tags": [
+      "Startup",
+      "Partner"
+    ]
+  },
+  {
+    "id": "cust-198",
+    "name": "권민재",
+    "email": "kwon민재8@tech.co",
+    "company": "NCsoft",
+    "status": "active",
+    "revenue": 90854,
+    "joinDate": "2020-12-04",
+    "country": "GB",
+    "phone": "+93-965-8109",
+    "hasNotification": false,
+    "tags": [
+      "VIP",
+      "Partner",
+      "Startup"
+    ]
+  },
+  {
+    "id": "cust-199",
+    "name": "방소연",
+    "email": "bang소연89@company.io",
+    "company": "InnoTech",
+    "status": "active",
+    "revenue": 25411,
+    "joinDate": "2020-10-31",
+    "country": "AU",
+    "phone": "+65-656-1539",
+    "hasNotification": true,
+    "tags": [
+      "VIP",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "cust-200",
+    "name": "류지아",
+    "email": "ryu지아92@work.net",
+    "company": "SK하이닉스",
+    "status": "active",
+    "revenue": 41337,
+    "joinDate": "2023-05-10",
+    "country": "AU",
+    "phone": "+50-677-4939",
+    "hasNotification": false,
+    "tags": [
+      "Partner",
+      "SMB",
+      "Enterprise"
+    ]
+  }
+]

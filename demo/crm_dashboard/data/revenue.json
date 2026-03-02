@@ -1,0 +1,194 @@
+[
+  {
+    "month": "2024-01",
+    "revenue": 84752,
+    "target": 88000,
+    "customers": 82,
+    "newDeals": 9,
+    "closedDeals": 16
+  },
+  {
+    "month": "2024-02",
+    "revenue": 85640,
+    "target": 89319,
+    "customers": 87,
+    "newDeals": 10,
+    "closedDeals": 17
+  },
+  {
+    "month": "2024-03",
+    "revenue": 78316,
+    "target": 90640,
+    "customers": 89,
+    "newDeals": 19,
+    "closedDeals": 18
+  },
+  {
+    "month": "2024-04",
+    "revenue": 85715,
+    "target": 91960,
+    "customers": 93,
+    "newDeals": 11,
+    "closedDeals": 18
+  },
+  {
+    "month": "2024-05",
+    "revenue": 83514,
+    "target": 93280,
+    "customers": 90,
+    "newDeals": 20,
+    "closedDeals": 5
+  },
+  {
+    "month": "2024-06",
+    "revenue": 85993,
+    "target": 94600,
+    "customers": 93,
+    "newDeals": 18,
+    "closedDeals": 13
+  },
+  {
+    "month": "2024-07",
+    "revenue": 91455,
+    "target": 95920,
+    "customers": 98,
+    "newDeals": 18,
+    "closedDeals": 13
+  },
+  {
+    "month": "2024-08",
+    "revenue": 87017,
+    "target": 97240,
+    "customers": 101,
+    "newDeals": 9,
+    "closedDeals": 15
+  },
+  {
+    "month": "2024-09",
+    "revenue": 91036,
+    "target": 98560,
+    "customers": 109,
+    "newDeals": 24,
+    "closedDeals": 6
+  },
+  {
+    "month": "2024-10",
+    "revenue": 89438,
+    "target": 99880,
+    "customers": 111,
+    "newDeals": 17,
+    "closedDeals": 17
+  },
+  {
+    "month": "2024-11",
+    "revenue": 93460,
+    "target": 101200,
+    "customers": 110,
+    "newDeals": 12,
+    "closedDeals": 10
+  },
+  {
+    "month": "2024-12",
+    "revenue": 89552,
+    "target": 102520,
+    "customers": 118,
+    "newDeals": 9,
+    "closedDeals": 13
+  },
+  {
+    "month": "2025-01",
+    "revenue": 95940,
+    "target": 103840,
+    "customers": 118,
+    "newDeals": 10,
+    "closedDeals": 11
+  },
+  {
+    "month": "2025-02",
+    "revenue": 98821,
+    "target": 105160,
+    "customers": 123,
+    "newDeals": 12,
+    "closedDeals": 17
+  },
+  {
+    "month": "2025-03",
+    "revenue": 94009,
+    "target": 106480,
+    "customers": 127,
+    "newDeals": 25,
+    "closedDeals": 8
+  },
+  {
+    "month": "2025-04",
+    "revenue": 100993,
+    "target": 107800,
+    "customers": 129,
+    "newDeals": 14,
+    "closedDeals": 13
+  },
+  {
+    "month": "2025-05",
+    "revenue": 102789,
+    "target": 109120,
+    "customers": 129,
+    "newDeals": 15,
+    "closedDeals": 6
+  },
+  {
+    "month": "2025-06",
+    "revenue": 99761,
+    "target": 110440,
+    "customers": 135,
+    "newDeals": 18,
+    "closedDeals": 15
+  },
+  {
+    "month": "2025-07",
+    "revenue": 106037,
+    "target": 111760,
+    "customers": 133,
+    "newDeals": 11,
+    "closedDeals": 15
+  },
+  {
+    "month": "2025-08",
+    "revenue": 104576,
+    "target": 113080,
+    "customers": 141,
+    "newDeals": 19,
+    "closedDeals": 10
+  },
+  {
+    "month": "2025-09",
+    "revenue": 102120,
+    "target": 114400,
+    "customers": 143,
+    "newDeals": 19,
+    "closedDeals": 14
+  },
+  {
+    "month": "2025-10",
+    "revenue": 100596,
+    "target": 115720,
+    "customers": 145,
+    "newDeals": 13,
+    "closedDeals": 10
+  },
+  {
+    "month": "2025-11",
+    "revenue": 108645,
+    "target": 117040,
+    "customers": 146,
+    "newDeals": 22,
+    "closedDeals": 5
+  },
+  {
+    "month": "2025-12",
+    "revenue": 106425,
+    "target": 118360,
+    "customers": 150,
+    "newDeals": 19,
+    "closedDeals": 7
+  }
+]
